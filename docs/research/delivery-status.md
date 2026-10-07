@@ -17,8 +17,8 @@ Observed on 2026-10-07. This file distinguishes research and source control from
 | Cloudflare deployment | not performed | no account resources provisioned and no live scenario verified |
 | Model/provider integration tests | not run | registry entries and documentation are not live provider results |
 | Desktop platform tests | not run | no macOS, Windows or Linux native implementation verified |
-| Public Git repository | pending publication | update after remote creation and push are confirmed |
-| GitHub CI | not observed yet | specification workflow configured; no CI claim until a run is observed |
+| Public Git repository | created and pushed | [Digidai/asterweft](https://github.com/Digidai/asterweft), public, independent repository (`isFork: false`), default branch `main` |
+| GitHub CI | passed for initial specification commit | [run 37591542998](https://github.com/Digidai/asterweft/actions/runs/37591542998), commit `bf6ca83f980784e54cf8fd4cb1b5d21aca1e8840`; this is specification validation, not product integration testing |
 | npm/PyPI/crates/Go release | not published | root package is private and version 0.0.0 |
 
 The local validator checks inventory integrity and evidence requirements. Its tests deliberately exercise deletion, duplicate interfaces, dropped scope, missing evidence and mocked provider results. They do not execute or validate the target product.
