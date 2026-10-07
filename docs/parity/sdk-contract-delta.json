@@ -1,0 +1,61 @@
+{
+  "sdk_reference_commit": "b174685e81012acccdd639463d90ec7ece7d6064",
+  "main_reference_commit": "0a7d64d5173dfbbfbe8ab602695cf1ff6405483e",
+  "files": [
+    {
+      "path": "proto/a13n-service/openapi.json",
+      "sdk_reference_sha256": "478418f409b2d3f248aec3c972722a48cbb2d4e4f05f5b14f61fa93d5fbc18c6",
+      "baseline_sha256": "d6891346a2bed909f2136bd1129eb78e00569c4c5acf196863b7368cf91b5a3a",
+      "identical_bytes": false
+    },
+    {
+      "path": "proto/a13n-service/thread-stream.schema.json",
+      "sdk_reference_sha256": "e34a4fe54242be7e06fb38033f7a000455f86ba746cca99850219a660750e56b",
+      "baseline_sha256": "e34a4fe54242be7e06fb38033f7a000455f86ba746cca99850219a660750e56b",
+      "identical_bytes": true
+    },
+    {
+      "path": "spec/api-conventions.md",
+      "sdk_reference_sha256": "9cb53d040d151ef2f828bdbdea03ad792b28f2a937212ba6c89a47df04c6aa41",
+      "baseline_sha256": "9cb53d040d151ef2f828bdbdea03ad792b28f2a937212ba6c89a47df04c6aa41",
+      "identical_bytes": true
+    },
+    {
+      "path": "spec/a13n-service/05-runs.md",
+      "sdk_reference_sha256": "6d20ac0b955508d827fc25933a6974d96b4e361bc549dac1c79c4298f5caec09",
+      "baseline_sha256": "80f0bf8dc57ec98557daf2219643182fccaa5847eda4c6776373733ee0073997",
+      "identical_bytes": false
+    },
+    {
+      "path": "spec/a13n-service/07-facts-and-delivery.md",
+      "sdk_reference_sha256": "82537575986eb8f8def6794e139791c10163f2bbd7fa5a84206d8c9420609d39",
+      "baseline_sha256": "82537575986eb8f8def6794e139791c10163f2bbd7fa5a84206d8c9420609d39",
+      "identical_bytes": true
+    },
+    {
+      "path": "spec/a13n-service/10-api.md",
+      "sdk_reference_sha256": "55f6bd7c32c35ee660aa6656ed2e8e72f8923cab2f7496632eb49d774b01208c",
+      "baseline_sha256": "6529492b6da6562f3802ee821c85c9b261b5625936154c324738a18e7214a9d2",
+      "identical_bytes": false
+    }
+  ],
+  "http_delta": {
+    "old_operations": 233,
+    "new_operations": 235,
+    "added": [
+      "POST /api/v1/runs/{run_id}/answers",
+      "GET /api/v1/runs/{run_id}/answers"
+    ],
+    "removed": [],
+    "changed_operation_documents": [],
+    "schemas_identical": false,
+    "schema_names_added": [
+      "PendingAnswer",
+      "PendingAnswers",
+      "SavedAnswer"
+    ],
+    "existing_schema_documents_changed": [],
+    "old_schema_count": 316,
+    "new_schema_count": 319
+  }
+}

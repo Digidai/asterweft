@@ -1,0 +1,97 @@
+{
+  "observed_at": "2026-10-07",
+  "source": "https://registry.npmjs.org/",
+  "installed": false,
+  "packages": [
+    {
+      "name": "agents",
+      "version": "0.26.0",
+      "license": "MIT",
+      "peerDependencies": {
+        "ai": "^6.0.0 || ^7.0.0",
+        "zod": "^4.0.0",
+        "chat": "^4.29.0",
+        "vite": ">=6.0.0 <9.0.0",
+        "react": "^19.0.0",
+        "@x402/evm": "^2.0.0",
+        "just-bash": "^3.0.0",
+        "@x402/core": "^2.0.0",
+        "@tanstack/ai": ">=0.10.2 <1.0.0",
+        "@ai-sdk/react": "^3.0.0 || ^4.0.0",
+        "@ai-sdk/provider": "^4.0.0",
+        "@cloudflare/codemode": ">=0.5.0",
+        "@earendil-works/pi-ai": "^1.0.0",
+        "@modelcontextprotocol/sdk": "1.30.0",
+        "@earendil-works/pi-durable": "^1.0.0",
+        "@modelcontextprotocol/client": "2.0.0",
+        "@modelcontextprotocol/server": "2.0.0"
+      },
+      "dist.integrity": "sha512-r0odbrTXkZMPwl2EvCsPB5jSMZoXUvYDUjhP/VppOpPKc4ddBMWQIgVabnXuSaRF+sqCIPm1txM/qbDpJqXZpQ=="
+    },
+    {
+      "name": "@cloudflare/think",
+      "version": "0.20.0",
+      "license": "MIT",
+      "peerDependencies": {
+        "ai": "^7.0.0",
+        "zod": "^4.0.0",
+        "react": "^19.0.0",
+        "agents": ">=0.25.0 <1.0.0",
+        "@ai-sdk/react": "^4.0.0",
+        "@chat-adapter/telegram": "^4.29.0"
+      },
+      "dist.integrity": "sha512-1+BMb0XhALPDmCbzbPhITITANrIqBBYCT0sEIHFSbGOwGhWKLmblzdw8YP/FySdXuYko+y5PIcCXoxjNz0Ji1g=="
+    },
+    {
+      "name": "@cloudflare/sandbox",
+      "version": "1.0.0",
+      "license": "Apache-2.0",
+      "dist.integrity": "sha512-+TZVuCey6OBDTvPLWisq4Ie7/R5Zy3zFyYOFCNRpdEIyQsKq3xwzpctonE43DfZ+wYZvvu6QYpR138PayDjF+A=="
+    },
+    {
+      "name": "@cloudflare/codemode",
+      "version": "0.5.3",
+      "license": "MIT",
+      "peerDependencies": {
+        "ai": "^6.0.0 || ^7.0.0",
+        "zod": "^4.0.0",
+        "@tanstack/ai": ">=0.8.0 <1.0.0",
+        "@modelcontextprotocol/sdk": "^1.25.0"
+      },
+      "dist.integrity": "sha512-lrSAsBv20aMO+vu/Rn7I4Myhxvyn9krOmNUCV/oq2fuIMUyp1Ipt0Pf7WM1zS3MTrQ9BKAMVhEl/sKVSiHb71Q=="
+    },
+    {
+      "name": "ai",
+      "version": "7.0.130",
+      "license": "Apache-2.0",
+      "peerDependencies": {
+        "zod": "^3.25.76 || ^4.1.8"
+      },
+      "engines": {
+        "node": ">=22"
+      },
+      "dist.integrity": "sha512-QkBkCogl46jXUg0SrSsdqQlOI2ZVMCjfnbBQS8t3gE21U/SO17oNMVFyjmcC9z20wOoYUA+2O2vsso0maoS7dw=="
+    },
+    {
+      "name": "wrangler",
+      "version": "4.148.0",
+      "license": "MIT OR Apache-2.0",
+      "peerDependencies": {
+        "@cloudflare/workers-types": "^5.20261006.1"
+      },
+      "engines": {
+        "node": ">=22.0.0"
+      },
+      "dist.integrity": "sha512-wgbll8cA/7qOMJSoYQuJrw9M9lmedGzYtg6wvUK2p/7G1KaE88jFmQ/CvtQzVUF9C8PQtC4Y5p9vbpAsJGAlpA=="
+    },
+    {
+      "name": "@pydantic/monty",
+      "version": "1.1.0",
+      "license": "MIT",
+      "engines": {
+        "node": ">= 20"
+      },
+      "dist.integrity": "sha512-XUTCkAt9ZXkUoOBL9UuSFFG31y5dFd+BFvbpDSR9vSzb820djjWgGXv4nOmZdMXcoHAcXCtXaZ7Ra8MgzzL44w=="
+    }
+  ]
+}

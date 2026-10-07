@@ -1,0 +1,452 @@
+[
+  {
+    "id": "PROV001",
+    "kind": "model",
+    "name": "openai",
+    "requirement": "H19",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "PROV002",
+    "kind": "model",
+    "name": "openai_chatgpt",
+    "requirement": "H19",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "PROV003",
+    "kind": "model",
+    "name": "anthropic",
+    "requirement": "H19",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "PROV004",
+    "kind": "model",
+    "name": "google_gemini",
+    "requirement": "H19",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "PROV005",
+    "kind": "model",
+    "name": "google_vertex",
+    "requirement": "H19",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "PROV006",
+    "kind": "model",
+    "name": "azure_openai",
+    "requirement": "H19",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "PROV007",
+    "kind": "model",
+    "name": "aws_bedrock",
+    "requirement": "H19",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "PROV008",
+    "kind": "model",
+    "name": "openrouter",
+    "requirement": "H19",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "PROV009",
+    "kind": "model",
+    "name": "fireworks",
+    "requirement": "H19",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "PROV010",
+    "kind": "model",
+    "name": "together",
+    "requirement": "H19",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "PROV011",
+    "kind": "model",
+    "name": "cerebras",
+    "requirement": "H19",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "PROV012",
+    "kind": "model",
+    "name": "sambanova",
+    "requirement": "H19",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "PROV013",
+    "kind": "model",
+    "name": "vercel",
+    "requirement": "H19",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "PROV014",
+    "kind": "model",
+    "name": "xai",
+    "requirement": "H19",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "PROV015",
+    "kind": "model",
+    "name": "ollama",
+    "requirement": "H19",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "PROV016",
+    "kind": "model",
+    "name": "alibaba_model_studio",
+    "requirement": "H19",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "PROV017",
+    "kind": "model",
+    "name": "deepseek",
+    "requirement": "H19",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "PROV018",
+    "kind": "model",
+    "name": "moonshot",
+    "requirement": "H19",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "PROV019",
+    "kind": "model",
+    "name": "minimax",
+    "requirement": "H19",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "PROV020",
+    "kind": "model",
+    "name": "zhipu",
+    "requirement": "H19",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "PROV021",
+    "kind": "model",
+    "name": "typesafe",
+    "requirement": "H19",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "PROV022",
+    "kind": "environment",
+    "name": "direct_local",
+    "requirement": "H08",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "PROV023",
+    "kind": "environment",
+    "name": "local_envd",
+    "requirement": "H08",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "PROV024",
+    "kind": "environment",
+    "name": "docker",
+    "requirement": "H08",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "PROV025",
+    "kind": "environment",
+    "name": "e2b",
+    "requirement": "H08",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "PROV026",
+    "kind": "environment",
+    "name": "daytona",
+    "requirement": "H08",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "PROV027",
+    "kind": "environment",
+    "name": "modal",
+    "requirement": "H08",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "PROV028",
+    "kind": "environment",
+    "name": "vercel",
+    "requirement": "H08",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "PROV029",
+    "kind": "environment",
+    "name": "sprites",
+    "requirement": "H08",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "PROV030",
+    "kind": "environment",
+    "name": "runloop",
+    "requirement": "H08",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "PROV031",
+    "kind": "environment",
+    "name": "http_envd",
+    "requirement": "H08",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "PROV032",
+    "kind": "environment",
+    "name": "websocket_envd",
+    "requirement": "H08",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "PROV033",
+    "kind": "web",
+    "name": "duckduckgo",
+    "requirement": "H20",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "PROV034",
+    "kind": "web",
+    "name": "brave",
+    "requirement": "H20",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "PROV035",
+    "kind": "web",
+    "name": "exa",
+    "requirement": "H20",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "PROV036",
+    "kind": "web",
+    "name": "parallel",
+    "requirement": "H20",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "PROV037",
+    "kind": "web",
+    "name": "tavily",
+    "requirement": "H20",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "PROV038",
+    "kind": "web",
+    "name": "firecrawl",
+    "requirement": "H20",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "PROV039",
+    "kind": "web",
+    "name": "jina",
+    "requirement": "H20",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "PROV040",
+    "kind": "web",
+    "name": "perplexity",
+    "requirement": "H20",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "PROV041",
+    "kind": "web",
+    "name": "serpapi",
+    "requirement": "H20",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "PROV042",
+    "kind": "web",
+    "name": "tinyfish",
+    "requirement": "H20",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "PROV043",
+    "kind": "memory",
+    "name": "mem0_platform",
+    "requirement": "H25",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "PROV044",
+    "kind": "memory",
+    "name": "mem0_oss",
+    "requirement": "H25",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "PROV045",
+    "kind": "connector",
+    "name": "composio",
+    "requirement": "S12",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  }
+]

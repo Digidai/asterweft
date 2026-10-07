@@ -1,0 +1,502 @@
+[
+  {
+    "id": "RPC001",
+    "method": "computer.click",
+    "replay_class": "terminal_evidence",
+    "requirement": "E10",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "RPC002",
+    "method": "computer.close_observation",
+    "replay_class": "active_only",
+    "requirement": "E10",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "RPC003",
+    "method": "computer.describe",
+    "replay_class": "active_only",
+    "requirement": "E10",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "RPC004",
+    "method": "computer.drag",
+    "replay_class": "terminal_evidence",
+    "requirement": "E10",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "RPC005",
+    "method": "computer.move",
+    "replay_class": "terminal_evidence",
+    "requirement": "E10",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "RPC006",
+    "method": "computer.observe",
+    "replay_class": "active_only",
+    "requirement": "E10",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "RPC007",
+    "method": "computer.press_keys",
+    "replay_class": "terminal_evidence",
+    "requirement": "E10",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "RPC008",
+    "method": "computer.scroll",
+    "replay_class": "terminal_evidence",
+    "requirement": "E10",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "RPC009",
+    "method": "computer.type_text",
+    "replay_class": "terminal_evidence",
+    "requirement": "E10",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "RPC010",
+    "method": "device.describe",
+    "replay_class": "ledger_external",
+    "requirement": "E03",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "RPC011",
+    "method": "directory.list",
+    "replay_class": "ledger_external",
+    "requirement": "E04",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "RPC012",
+    "method": "egress.update",
+    "replay_class": "ledger_external",
+    "requirement": "E07",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "RPC013",
+    "method": "environment.describe",
+    "replay_class": "active_only",
+    "requirement": "E03",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "RPC014",
+    "method": "environment.readiness",
+    "replay_class": "active_only",
+    "requirement": "E03",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "RPC015",
+    "method": "file.abort_writer",
+    "replay_class": "active_only",
+    "requirement": "E04",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "RPC016",
+    "method": "file.close_reader",
+    "replay_class": "active_only",
+    "requirement": "E04",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "RPC017",
+    "method": "file.commit_writer",
+    "replay_class": "terminal_evidence",
+    "requirement": "E04",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "RPC018",
+    "method": "file.copy",
+    "replay_class": "terminal_evidence",
+    "requirement": "E04",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "RPC019",
+    "method": "file.find",
+    "replay_class": "active_only",
+    "requirement": "E04",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "RPC020",
+    "method": "file.list",
+    "replay_class": "active_only",
+    "requirement": "E04",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "RPC021",
+    "method": "file.mkdir",
+    "replay_class": "terminal_evidence",
+    "requirement": "E04",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "RPC022",
+    "method": "file.move",
+    "replay_class": "terminal_evidence",
+    "requirement": "E04",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "RPC023",
+    "method": "file.open_reader",
+    "replay_class": "active_only",
+    "requirement": "E04",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "RPC024",
+    "method": "file.open_writer",
+    "replay_class": "active_only",
+    "requirement": "E04",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "RPC025",
+    "method": "file.patch_text",
+    "replay_class": "terminal_evidence",
+    "requirement": "E04",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "RPC026",
+    "method": "file.read_text",
+    "replay_class": "active_only",
+    "requirement": "E04",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "RPC027",
+    "method": "file.remove",
+    "replay_class": "terminal_evidence",
+    "requirement": "E04",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "RPC028",
+    "method": "file.search",
+    "replay_class": "active_only",
+    "requirement": "E04",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "RPC029",
+    "method": "file.stat",
+    "replay_class": "active_only",
+    "requirement": "E04",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "RPC030",
+    "method": "file.write_text",
+    "replay_class": "terminal_evidence",
+    "requirement": "E04",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "RPC031",
+    "method": "initialize",
+    "replay_class": "ledger_external",
+    "requirement": "E03",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "RPC032",
+    "method": "operation.cancel",
+    "replay_class": "active_only",
+    "requirement": "E09",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "RPC033",
+    "method": "output.read",
+    "replay_class": "active_only",
+    "requirement": "E06",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "RPC034",
+    "method": "output.release",
+    "replay_class": "terminal_evidence",
+    "requirement": "E06",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "RPC035",
+    "method": "port.inspect",
+    "replay_class": "active_only",
+    "requirement": "E05",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "RPC036",
+    "method": "port.wait",
+    "replay_class": "active_only",
+    "requirement": "E05",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "RPC037",
+    "method": "process.close_stdin",
+    "replay_class": "terminal_evidence",
+    "requirement": "E05",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "RPC038",
+    "method": "process.inspect",
+    "replay_class": "active_only",
+    "requirement": "E05",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "RPC039",
+    "method": "process.kill",
+    "replay_class": "terminal_evidence",
+    "requirement": "E05",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "RPC040",
+    "method": "process.release",
+    "replay_class": "terminal_evidence",
+    "requirement": "E05",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "RPC041",
+    "method": "process.signal",
+    "replay_class": "terminal_evidence",
+    "requirement": "E05",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "RPC042",
+    "method": "process.start",
+    "replay_class": "terminal_evidence",
+    "requirement": "E05",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "RPC043",
+    "method": "process.wait",
+    "replay_class": "active_only",
+    "requirement": "E05",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "RPC044",
+    "method": "process.write_stdin",
+    "replay_class": "terminal_evidence",
+    "requirement": "E05",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "RPC045",
+    "method": "receipt.get",
+    "replay_class": "active_only",
+    "requirement": "E09",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "RPC046",
+    "method": "session.attach",
+    "replay_class": "ledger_external",
+    "requirement": "E03",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "RPC047",
+    "method": "session.close",
+    "replay_class": "ledger_external",
+    "requirement": "E03",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "RPC048",
+    "method": "session.keepalive",
+    "replay_class": "ledger_external",
+    "requirement": "E03",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "RPC049",
+    "method": "session.open",
+    "replay_class": "ledger_external",
+    "requirement": "E03",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "RPC050",
+    "method": "shell.exec",
+    "replay_class": "terminal_evidence",
+    "requirement": "E05",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  }
+]

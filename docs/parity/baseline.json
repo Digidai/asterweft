@@ -1,0 +1,39 @@
+{
+  "observed_at": "2026-10-07",
+  "repository": "https://github.com/converge-ai-labs/agent-foundation",
+  "commit": "0a7d64d5173dfbbfbe8ab602695cf1ff6405483e",
+  "commit_utc": "2026-10-07T06:54:24Z",
+  "scope": "Full functional rewrite, Cloudflare cloud plus independent local companion",
+  "counts": {
+    "specifications": 87,
+    "requirements": 85,
+    "http_paths": 160,
+    "http_operations": 235,
+    "reference_schema_names": 319,
+    "environment_methods": 50,
+    "providers": 45,
+    "sdk_repositories": 4
+  },
+  "provider_counts": {
+    "model": 21,
+    "environment": 11,
+    "web": 10,
+    "memory": 2,
+    "connector": 1
+  },
+  "source_artifacts": [
+    {
+      "path": "proto/a13n-service/openapi.json",
+      "sha256": "d6891346a2bed909f2136bd1129eb78e00569c4c5acf196863b7368cf91b5a3a",
+      "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/proto/a13n-service/openapi.json"
+    },
+    {
+      "path": "proto/a13n-envd/eip/v1/artifacts/methods.json",
+      "sha256": "d20fc4ad336791dd6f85c76a4baad3c144cae6e41dcc50aed8c2447c2f8582df",
+      "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/proto/a13n-envd/eip/v1/artifacts/methods.json"
+    }
+  ],
+  "implementation_imported": false,
+  "runtime_tests_of_reference": "not_run",
+  "interpretation": "Inventory coverage is not behavioral equivalence. Scenario expansion and independent execution evidence are still required."
+}

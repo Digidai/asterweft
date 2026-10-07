@@ -1,0 +1,624 @@
+[
+  {
+    "path": "spec/README.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/README.md",
+    "requirements": [
+      "G01"
+    ]
+  },
+  {
+    "path": "spec/a13n-envd/00-overview.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-envd/00-overview.md",
+    "requirements": [
+      "G01",
+      "C02"
+    ]
+  },
+  {
+    "path": "spec/a13n-envd/01-daemon-lifecycle-and-configuration.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-envd/01-daemon-lifecycle-and-configuration.md",
+    "requirements": [
+      "E01"
+    ]
+  },
+  {
+    "path": "spec/a13n-envd/02-eip-protocol.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-envd/02-eip-protocol.md",
+    "requirements": [
+      "E02"
+    ]
+  },
+  {
+    "path": "spec/a13n-envd/03-transports-and-sessions.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-envd/03-transports-and-sessions.md",
+    "requirements": [
+      "E03"
+    ]
+  },
+  {
+    "path": "spec/a13n-envd/04-resource-operations.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-envd/04-resource-operations.md",
+    "requirements": [
+      "E04"
+    ]
+  },
+  {
+    "path": "spec/a13n-envd/05-command-and-process-execution.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-envd/05-command-and-process-execution.md",
+    "requirements": [
+      "E05"
+    ]
+  },
+  {
+    "path": "spec/a13n-envd/06-output-retention.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-envd/06-output-retention.md",
+    "requirements": [
+      "E06"
+    ]
+  },
+  {
+    "path": "spec/a13n-envd/07-execution-isolation.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-envd/07-execution-isolation.md",
+    "requirements": [
+      "E07"
+    ]
+  },
+  {
+    "path": "spec/a13n-envd/08-protocol-source-client-and-generation.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-envd/08-protocol-source-client-and-generation.md",
+    "requirements": [
+      "E08"
+    ]
+  },
+  {
+    "path": "spec/a13n-envd/09-resource-lifetime-and-reclamation.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-envd/09-resource-lifetime-and-reclamation.md",
+    "requirements": [
+      "E09"
+    ]
+  },
+  {
+    "path": "spec/a13n-envd/10-computer-use.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-envd/10-computer-use.md",
+    "requirements": [
+      "E10"
+    ]
+  },
+  {
+    "path": "spec/a13n-envd/README.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-envd/README.md",
+    "requirements": [
+      "G01"
+    ]
+  },
+  {
+    "path": "spec/a13n-harness/00-overview.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-harness/00-overview.md",
+    "requirements": [
+      "G01"
+    ]
+  },
+  {
+    "path": "spec/a13n-harness/01-pydantic-ai-foundation.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-harness/01-pydantic-ai-foundation.md",
+    "requirements": [
+      "H27"
+    ]
+  },
+  {
+    "path": "spec/a13n-harness/02-domain-model.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-harness/02-domain-model.md",
+    "requirements": [
+      "H28"
+    ]
+  },
+  {
+    "path": "spec/a13n-harness/03-agent-definition-and-build.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-harness/03-agent-definition-and-build.md",
+    "requirements": [
+      "H01"
+    ]
+  },
+  {
+    "path": "spec/a13n-harness/04-capability-model.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-harness/04-capability-model.md",
+    "requirements": [
+      "H02"
+    ]
+  },
+  {
+    "path": "spec/a13n-harness/05-plugin-system.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-harness/05-plugin-system.md",
+    "requirements": [
+      "H03",
+      "C03"
+    ]
+  },
+  {
+    "path": "spec/a13n-harness/06-execution-context-and-lifecycle.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-harness/06-execution-context-and-lifecycle.md",
+    "requirements": [
+      "H04"
+    ]
+  },
+  {
+    "path": "spec/a13n-harness/07-tool-execution.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-harness/07-tool-execution.md",
+    "requirements": [
+      "H05",
+      "H06"
+    ]
+  },
+  {
+    "path": "spec/a13n-harness/08-environment-integration.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-harness/08-environment-integration.md",
+    "requirements": [
+      "H07"
+    ]
+  },
+  {
+    "path": "spec/a13n-harness/08a-environment-providers.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-harness/08a-environment-providers.md",
+    "requirements": [
+      "H08"
+    ]
+  },
+  {
+    "path": "spec/a13n-harness/09-context-and-memory.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-harness/09-context-and-memory.md",
+    "requirements": [
+      "H09"
+    ]
+  },
+  {
+    "path": "spec/a13n-harness/10-snapshot-and-resume.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-harness/10-snapshot-and-resume.md",
+    "requirements": [
+      "H10"
+    ]
+  },
+  {
+    "path": "spec/a13n-harness/11-delegation-and-subagents.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-harness/11-delegation-and-subagents.md",
+    "requirements": [
+      "H11"
+    ]
+  },
+  {
+    "path": "spec/a13n-harness/12-events-observability-and-usage.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-harness/12-events-observability-and-usage.md",
+    "requirements": [
+      "H12"
+    ]
+  },
+  {
+    "path": "spec/a13n-harness/13-hosting-contract.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-harness/13-hosting-contract.md",
+    "requirements": [
+      "H13"
+    ]
+  },
+  {
+    "path": "spec/a13n-harness/14-public-api-and-packaging.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-harness/14-public-api-and-packaging.md",
+    "requirements": [
+      "H14"
+    ]
+  },
+  {
+    "path": "spec/a13n-harness/15-security-compatibility-and-tradeoffs.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-harness/15-security-compatibility-and-tradeoffs.md",
+    "requirements": [
+      "H15"
+    ]
+  },
+  {
+    "path": "spec/a13n-harness/16-input-model-and-output.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-harness/16-input-model-and-output.md",
+    "requirements": [
+      "H16",
+      "H17"
+    ]
+  },
+  {
+    "path": "spec/a13n-harness/16a-model-authentication.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-harness/16a-model-authentication.md",
+    "requirements": [
+      "H18"
+    ]
+  },
+  {
+    "path": "spec/a13n-harness/16b-model-provider-definitions.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-harness/16b-model-provider-definitions.md",
+    "requirements": [
+      "H19"
+    ]
+  },
+  {
+    "path": "spec/a13n-harness/17-core-capability-catalog.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-harness/17-core-capability-catalog.md",
+    "requirements": [
+      "H20"
+    ]
+  },
+  {
+    "path": "spec/a13n-harness/18-codeact.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-harness/18-codeact.md",
+    "requirements": [
+      "H21"
+    ]
+  },
+  {
+    "path": "spec/a13n-harness/19-observation-model.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-harness/19-observation-model.md",
+    "requirements": [
+      "H22"
+    ]
+  },
+  {
+    "path": "spec/a13n-harness/20-async-components-and-lifecycle.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-harness/20-async-components-and-lifecycle.md",
+    "requirements": [
+      "H23"
+    ]
+  },
+  {
+    "path": "spec/a13n-harness/21-file-memory.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-harness/21-file-memory.md",
+    "requirements": [
+      "H24"
+    ]
+  },
+  {
+    "path": "spec/a13n-harness/21a-record-memory.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-harness/21a-record-memory.md",
+    "requirements": [
+      "H25"
+    ]
+  },
+  {
+    "path": "spec/a13n-harness/22-provider-subsystem.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-harness/22-provider-subsystem.md",
+    "requirements": [
+      "H26"
+    ]
+  },
+  {
+    "path": "spec/a13n-harness/README.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-harness/README.md",
+    "requirements": [
+      "G01"
+    ]
+  },
+  {
+    "path": "spec/a13n-harness-ui/00-overview.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-harness-ui/00-overview.md",
+    "requirements": [
+      "G01"
+    ]
+  },
+  {
+    "path": "spec/a13n-harness-ui/01-configuration-and-resource-catalog.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-harness-ui/01-configuration-and-resource-catalog.md",
+    "requirements": [
+      "W01"
+    ]
+  },
+  {
+    "path": "spec/a13n-harness-ui/01a-extension-discovery-and-management.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-harness-ui/01a-extension-discovery-and-management.md",
+    "requirements": [
+      "W02"
+    ]
+  },
+  {
+    "path": "spec/a13n-harness-ui/01b-content-plugin-repositories.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-harness-ui/01b-content-plugin-repositories.md",
+    "requirements": [
+      "W03"
+    ]
+  },
+  {
+    "path": "spec/a13n-harness-ui/02-agent-composition-and-snapshots.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-harness-ui/02-agent-composition-and-snapshots.md",
+    "requirements": [
+      "W04"
+    ]
+  },
+  {
+    "path": "spec/a13n-harness-ui/02a-model-authentication-and-account-stores.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-harness-ui/02a-model-authentication-and-account-stores.md",
+    "requirements": [
+      "W05"
+    ]
+  },
+  {
+    "path": "spec/a13n-harness-ui/02b-environment-skill-sources.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-harness-ui/02b-environment-skill-sources.md",
+    "requirements": [
+      "W06"
+    ]
+  },
+  {
+    "path": "spec/a13n-harness-ui/03-local-storage-and-recovery.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-harness-ui/03-local-storage-and-recovery.md",
+    "requirements": [
+      "W07"
+    ]
+  },
+  {
+    "path": "spec/a13n-harness-ui/04-projects-threads-and-environments.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-harness-ui/04-projects-threads-and-environments.md",
+    "requirements": [
+      "W08"
+    ]
+  },
+  {
+    "path": "spec/a13n-harness-ui/04a-devices-and-environment-bindings.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-harness-ui/04a-devices-and-environment-bindings.md",
+    "requirements": [
+      "W09"
+    ]
+  },
+  {
+    "path": "spec/a13n-harness-ui/05-runtime-subagents-and-surfaces.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-harness-ui/05-runtime-subagents-and-surfaces.md",
+    "requirements": [
+      "W10"
+    ]
+  },
+  {
+    "path": "spec/a13n-harness-ui/06-setup-and-environment-readiness.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-harness-ui/06-setup-and-environment-readiness.md",
+    "requirements": [
+      "W11"
+    ]
+  },
+  {
+    "path": "spec/a13n-harness-ui/07-interactive-cli.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-harness-ui/07-interactive-cli.md",
+    "requirements": [
+      "W12"
+    ]
+  },
+  {
+    "path": "spec/a13n-harness-ui/08-file-memory.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-harness-ui/08-file-memory.md",
+    "requirements": [
+      "W13"
+    ]
+  },
+  {
+    "path": "spec/a13n-harness-ui/09-mcp-apps.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-harness-ui/09-mcp-apps.md",
+    "requirements": [
+      "W14"
+    ]
+  },
+  {
+    "path": "spec/a13n-harness-ui/README.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-harness-ui/README.md",
+    "requirements": [
+      "G01"
+    ]
+  },
+  {
+    "path": "spec/a13n-harness-ui/webui/00-overview.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-harness-ui/webui/00-overview.md",
+    "requirements": [
+      "G01"
+    ]
+  },
+  {
+    "path": "spec/a13n-harness-ui/webui/01-collaborative-conversations.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-harness-ui/webui/01-collaborative-conversations.md",
+    "requirements": [
+      "W15"
+    ]
+  },
+  {
+    "path": "spec/a13n-harness-ui/webui/02-host-computer-sharing.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-harness-ui/webui/02-host-computer-sharing.md",
+    "requirements": [
+      "W16"
+    ]
+  },
+  {
+    "path": "spec/a13n-harness-ui/webui/03-distribution.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-harness-ui/webui/03-distribution.md",
+    "requirements": [
+      "W17"
+    ]
+  },
+  {
+    "path": "spec/a13n-harness-ui/webui/04-workbench-interaction.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-harness-ui/webui/04-workbench-interaction.md",
+    "requirements": [
+      "W18"
+    ]
+  },
+  {
+    "path": "spec/a13n-harness-ui/webui/05-output-comments.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-harness-ui/webui/05-output-comments.md",
+    "requirements": [
+      "W19"
+    ]
+  },
+  {
+    "path": "spec/a13n-harness-ui/webui/README.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-harness-ui/webui/README.md",
+    "requirements": [
+      "G01"
+    ]
+  },
+  {
+    "path": "spec/a13n-service/00-overview.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-service/00-overview.md",
+    "requirements": [
+      "G01",
+      "C02"
+    ]
+  },
+  {
+    "path": "spec/a13n-service/02-layout.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-service/02-layout.md",
+    "requirements": [
+      "G01"
+    ]
+  },
+  {
+    "path": "spec/a13n-service/03-tenancy.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-service/03-tenancy.md",
+    "requirements": [
+      "S01",
+      "S02"
+    ]
+  },
+  {
+    "path": "spec/a13n-service/04-resources.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-service/04-resources.md",
+    "requirements": [
+      "S03",
+      "S04"
+    ]
+  },
+  {
+    "path": "spec/a13n-service/05-runs.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-service/05-runs.md",
+    "requirements": [
+      "S05",
+      "S06",
+      "S07",
+      "S08"
+    ]
+  },
+  {
+    "path": "spec/a13n-service/06-environments.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-service/06-environments.md",
+    "requirements": [
+      "S09"
+    ]
+  },
+  {
+    "path": "spec/a13n-service/07-facts-and-delivery.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-service/07-facts-and-delivery.md",
+    "requirements": [
+      "S10",
+      "S11"
+    ]
+  },
+  {
+    "path": "spec/a13n-service/08-providers.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-service/08-providers.md",
+    "requirements": [
+      "S12"
+    ]
+  },
+  {
+    "path": "spec/a13n-service/09-runtime.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-service/09-runtime.md",
+    "requirements": [
+      "S13",
+      "C03"
+    ]
+  },
+  {
+    "path": "spec/a13n-service/10-api.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-service/10-api.md",
+    "requirements": [
+      "S14"
+    ]
+  },
+  {
+    "path": "spec/a13n-service/11-memory.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-service/11-memory.md",
+    "requirements": [
+      "S15"
+    ]
+  },
+  {
+    "path": "spec/a13n-service/12-observability.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-service/12-observability.md",
+    "requirements": [
+      "S16"
+    ]
+  },
+  {
+    "path": "spec/a13n-service/README.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-service/README.md",
+    "requirements": [
+      "G01"
+    ]
+  },
+  {
+    "path": "spec/a13n-service/glossary.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-service/glossary.md",
+    "requirements": [
+      "G01"
+    ]
+  },
+  {
+    "path": "spec/a13n-stream-protocol/00-overview.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-stream-protocol/00-overview.md",
+    "requirements": [
+      "P01"
+    ]
+  },
+  {
+    "path": "spec/a13n-stream-protocol/README.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/a13n-stream-protocol/README.md",
+    "requirements": [
+      "G01"
+    ]
+  },
+  {
+    "path": "spec/api-conventions.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/api-conventions.md",
+    "requirements": [
+      "G02"
+    ]
+  },
+  {
+    "path": "spec/data-conventions.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/data-conventions.md",
+    "requirements": [
+      "G03"
+    ]
+  },
+  {
+    "path": "spec/frontend/README.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/frontend/README.md",
+    "requirements": [
+      "G01"
+    ]
+  },
+  {
+    "path": "spec/frontend/console.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/frontend/console.md",
+    "requirements": [
+      "U01",
+      "U02"
+    ]
+  },
+  {
+    "path": "spec/frontend/design-system.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/frontend/design-system.md",
+    "requirements": [
+      "U03"
+    ]
+  },
+  {
+    "path": "spec/interaction-model.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/interaction-model.md",
+    "requirements": [
+      "G04"
+    ]
+  },
+  {
+    "path": "spec/repository-model.md",
+    "url": "https://github.com/converge-ai-labs/agent-foundation/blob/0a7d64d5173dfbbfbe8ab602695cf1ff6405483e/spec/repository-model.md",
+    "requirements": [
+      "G05"
+    ]
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "repository": "a13n-sdk-python",
+    "sha": "f3a5672a01a5023edda8d38cd51c773db69f4d36",
+    "date": "2026-10-06T14:58:47Z",
+    "url": "https://github.com/converge-ai-labs/a13n-sdk-python/commit/f3a5672a01a5023edda8d38cd51c773db69f4d36",
+    "service_contract_commit": "b174685e81012acccdd639463d90ec7ece7d6064",
+    "service_contract_source_url": "https://github.com/converge-ai-labs/a13n-sdk-python/blob/f3a5672a01a5023edda8d38cd51c773db69f4d36/contract/source.json",
+    "publication_note": "Source baseline only; no registry release or live compatibility claim."
+  },
+  {
+    "repository": "a13n-sdk-typescript",
+    "sha": "31908cb9b6fba7b2e9277af5cfcec436baca5b55",
+    "date": "2026-10-06T15:02:26Z",
+    "url": "https://github.com/converge-ai-labs/a13n-sdk-typescript/commit/31908cb9b6fba7b2e9277af5cfcec436baca5b55",
+    "service_contract_commit": "b174685e81012acccdd639463d90ec7ece7d6064",
+    "service_contract_source_url": "https://github.com/converge-ai-labs/a13n-sdk-typescript/blob/31908cb9b6fba7b2e9277af5cfcec436baca5b55/contract/source.json",
+    "publication_note": "Source baseline only; no registry release or live compatibility claim."
+  },
+  {
+    "repository": "a13n-sdk-go",
+    "sha": "82595afa4378f940d39519cfd75f78add18edcbc",
+    "date": "2026-10-06T15:15:16Z",
+    "url": "https://github.com/converge-ai-labs/a13n-sdk-go/commit/82595afa4378f940d39519cfd75f78add18edcbc",
+    "service_contract_commit": "b174685e81012acccdd639463d90ec7ece7d6064",
+    "service_contract_source_url": "https://github.com/converge-ai-labs/a13n-sdk-go/blob/82595afa4378f940d39519cfd75f78add18edcbc/contract/source.json",
+    "publication_note": "Source baseline only; no registry release or live compatibility claim."
+  },
+  {
+    "repository": "a13n-sdk-rust",
+    "sha": "db185a9ba9a0ce696e24f7dba38a1214000337e2",
+    "date": "2026-10-07T02:05:03Z",
+    "url": "https://github.com/converge-ai-labs/a13n-sdk-rust/commit/db185a9ba9a0ce696e24f7dba38a1214000337e2",
+    "service_contract_commit": "b174685e81012acccdd639463d90ec7ece7d6064",
+    "service_contract_source_url": "https://github.com/converge-ai-labs/a13n-sdk-rust/blob/db185a9ba9a0ce696e24f7dba38a1214000337e2/contract/source.json",
+    "publication_note": "Source baseline only; no registry release or live compatibility claim."
+  }
+]

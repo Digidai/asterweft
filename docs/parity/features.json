@@ -1,0 +1,1469 @@
+[
+  {
+    "id": "H01",
+    "category": "harness",
+    "title": "Agent definition and immutable build inputs",
+    "required": true,
+    "phase": "M2",
+    "specs": [
+      "spec/a13n-harness/03-agent-definition-and-build.md"
+    ],
+    "acceptance": [
+      "同一修订重建产生相同配置；默认修订变更不影响已运行任务",
+      "无效能力组合在运行前返回可定位错误"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "H02",
+    "category": "harness",
+    "title": "Capability ordering and scoped context",
+    "required": true,
+    "phase": "M2",
+    "specs": [
+      "spec/a13n-harness/04-capability-model.md"
+    ],
+    "acceptance": [
+      "能力依赖、排序与覆盖按公开契约执行",
+      "运行状态不泄漏到下一次运行；子 Agent 的权限不能由能力声明扩大"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "H03",
+    "category": "harness",
+    "title": "Plugin lifecycle and configuration",
+    "required": true,
+    "phase": "M2",
+    "specs": [
+      "spec/a13n-harness/05-plugin-system.md"
+    ],
+    "acceptance": [
+      "支持代码插件与声明插件的发现、配置和错误隔离",
+      "异步打开失败时释放已打开资源；正常、异常和取消均执行清理"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "H04",
+    "category": "harness",
+    "title": "Run identity and lifecycle hooks",
+    "required": true,
+    "phase": "M2",
+    "specs": [
+      "spec/a13n-harness/06-execution-context-and-lifecycle.md"
+    ],
+    "acceptance": [
+      "身份、时间、环境与动态宿主绑定正确传入",
+      "开始、结束、取消和异常 hook 的顺序有可观察测试"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "H05",
+    "category": "harness",
+    "title": "Managed tool execution",
+    "required": true,
+    "phase": "M2",
+    "specs": [
+      "spec/a13n-harness/07-tool-execution.md"
+    ],
+    "acceptance": [
+      "串行与并行调用返回与输入对应；工具异常可区分业务失败",
+      "结果大小有边界；覆盖和过滤发生在注册后的最终工具集合"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "H06",
+    "category": "harness",
+    "title": "Deferred tools and human interaction",
+    "required": true,
+    "phase": "M2",
+    "specs": [
+      "spec/a13n-harness/07-tool-execution.md"
+    ],
+    "acceptance": [
+      "等待用户回答、审批或客户端工具时返回明确等待态",
+      "重复、过期、错误 run 的回答不会推进状态；恢复只消费匹配的回答"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "H07",
+    "category": "harness",
+    "title": "Environment mounts and runtime mutation",
+    "required": true,
+    "phase": "M2",
+    "specs": [
+      "spec/a13n-harness/08-environment-integration.md"
+    ],
+    "acceptance": [
+      "具名挂载、只读访问、默认环境和动态挂载语义一致",
+      "恢复使用新的连接句柄；关闭 run 不误删被其他 run 共享的环境"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "H08",
+    "category": "harness",
+    "title": "Environment provider contracts",
+    "required": true,
+    "phase": "M2",
+    "specs": [
+      "spec/a13n-harness/08a-environment-providers.md"
+    ],
+    "acceptance": [
+      "11 个原有 provider 均保留独立验收项",
+      "能力不足返回明确错误；连接已有环境与创建环境不能混为一类"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "H09",
+    "category": "harness",
+    "title": "Context composition and overlays",
+    "required": true,
+    "phase": "M2",
+    "specs": [
+      "spec/a13n-harness/09-context-and-memory.md"
+    ],
+    "acceptance": [
+      "上下文按冻结与动态边界组合；压缩不覆盖历史原文",
+      "附件按需读取；当前模型请求投影不修改持久历史"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "H10",
+    "category": "harness",
+    "title": "Portable checkpoints and continuation",
+    "required": true,
+    "phase": "M2",
+    "specs": [
+      "spec/a13n-harness/10-snapshot-and-resume.md"
+    ],
+    "acceptance": [
+      "保存并恢复消息、工具结果、命名状态与资源引用",
+      "密钥与活连接不写入检查点；版本不兼容返回明确迁移错误"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "H11",
+    "category": "harness",
+    "title": "Inline delegation",
+    "required": true,
+    "phase": "M2",
+    "specs": [
+      "spec/a13n-harness/11-delegation-and-subagents.md"
+    ],
+    "acceptance": [
+      "内联子任务可单独返回结果、失败或取消",
+      "子调用继承约定上下文和用量归因，不能取得父任务没有的能力"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "H12",
+    "category": "harness",
+    "title": "Usage and event attribution",
+    "required": true,
+    "phase": "M2",
+    "specs": [
+      "spec/a13n-harness/12-events-observability-and-usage.md"
+    ],
+    "acceptance": [
+      "模型、工具和子任务事件能关联 thread、run、attempt",
+      "未知价格保持 unknown；重复投递不重复累计已提交用量"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "H13",
+    "category": "harness",
+    "title": "Host adapter boundaries",
+    "required": true,
+    "phase": "M2",
+    "specs": [
+      "spec/a13n-harness/13-hosting-contract.md"
+    ],
+    "acceptance": [
+      "宿主实现持久化、鉴权、调度与资源获取接口",
+      "内核不依赖 Service 数据库或控制台进程即可独立执行"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "H14",
+    "category": "harness",
+    "title": "In-process Python embedding",
+    "required": true,
+    "phase": "M6",
+    "specs": [
+      "spec/a13n-harness/14-public-api-and-packaging.md"
+    ],
+    "acceptance": [
+      "Python 用户程序能直接执行自己的 Python 工具与回调",
+      "接受约定的原生模型、消息和输出类型；不能以 HTTP SDK 代替进程内执行"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "H15",
+    "category": "harness",
+    "title": "Security and compatibility hooks",
+    "required": true,
+    "phase": "M2",
+    "specs": [
+      "spec/a13n-harness/15-security-compatibility-and-tradeoffs.md"
+    ],
+    "acceptance": [
+      "插件与宿主边界按契约拒绝不支持的执行方式",
+      "同一权限快照覆盖 HTTP、重定向和原生工具路径"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "H16",
+    "category": "harness",
+    "title": "Multimodal inputs and structured output",
+    "required": true,
+    "phase": "M2",
+    "specs": [
+      "spec/a13n-harness/16-input-model-and-output.md"
+    ],
+    "acceptance": [
+      "文本、文件、图片、音频和视频分别检查模型能力",
+      "结构化输出可验证；非法输入和不支持的媒体路径返回明确错误"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "H17",
+    "category": "harness",
+    "title": "Native provider state and recovery",
+    "required": true,
+    "phase": "M2",
+    "specs": [
+      "spec/a13n-harness/16-input-model-and-output.md"
+    ],
+    "acceptance": [
+      "工具调用后的 continuation 保留 provider 原生不透明字段",
+      "重试不串接已失败 attempt 的增量输出；自修复有次数边界"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "H18",
+    "category": "harness",
+    "title": "Model authentication flows",
+    "required": true,
+    "phase": "M5",
+    "specs": [
+      "spec/a13n-harness/16a-model-authentication.md"
+    ],
+    "acceptance": [
+      "API key、浏览器登录和设备码流程保留公开能力",
+      "账号刷新、撤销和替换在正确存储范围生效；状态导出不包含凭据"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "H19",
+    "category": "harness",
+    "title": "Model provider metadata and construction",
+    "required": true,
+    "phase": "M5",
+    "specs": [
+      "spec/a13n-harness/16b-model-provider-definitions.md"
+    ],
+    "acceptance": [
+      "21 个原有模型 provider 均有配置和运行验收",
+      "仅查询元数据不触发第三方 SDK 导入或网络请求"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "H20",
+    "category": "harness",
+    "title": "Core and optional capabilities",
+    "required": true,
+    "phase": "M5",
+    "specs": [
+      "spec/a13n-harness/17-core-capability-catalog.md"
+    ],
+    "acceptance": [
+      "覆盖任务工具、资源获取、媒体理解、原生图像输出保存及上下文协调",
+      "可选能力按配置启用；没有提供宿主接口时明确报告不可用"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "H21",
+    "category": "harness",
+    "title": "Restricted Python CodeAct",
+    "required": true,
+    "phase": "M5",
+    "specs": [
+      "spec/a13n-harness/18-codeact.md"
+    ],
+    "acceptance": [
+      "使用受限 Python 执行语义，保持变量延续与暂停恢复",
+      "只能调用最终授权工具集合；不能用任意 CPython 或 JavaScript 替代"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "H22",
+    "category": "harness",
+    "title": "Observation conversion and compaction",
+    "required": true,
+    "phase": "M2",
+    "specs": [
+      "spec/a13n-harness/19-observation-model.md"
+    ],
+    "acceptance": [
+      "标准和自定义事件都能保留来源与身份",
+      "显示压缩后的 checkpoint 可重新渲染；显示流不充当持久结果"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "H23",
+    "category": "harness",
+    "title": "Durable asynchronous child runs",
+    "required": true,
+    "phase": "M2",
+    "specs": [
+      "spec/a13n-harness/20-async-components-and-lifecycle.md"
+    ],
+    "acceptance": [
+      "创建、轮询、等待、取消和完成投递跨重启有效",
+      "子结果投递有去重；嵌套等待可检测死锁；禁止子任务不允许的延后工具"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "H24",
+    "category": "harness",
+    "title": "File memory with revisions",
+    "required": true,
+    "phase": "M4",
+    "specs": [
+      "spec/a13n-harness/21-file-memory.md"
+    ],
+    "acceptance": [
+      "文件读取、写入、重命名、删除、历史、恢复与条件写按相同版本边界工作",
+      "只读挂载拒绝所有写入；跨命名空间不可读取"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "H25",
+    "category": "harness",
+    "title": "Record memory",
+    "required": true,
+    "phase": "M4",
+    "specs": [
+      "spec/a13n-harness/21a-record-memory.md"
+    ],
+    "acceptance": [
+      "记忆记录的新增、更新、删除、搜索与首输入召回可观察",
+      "mem0 两种 provider 语义保留；清理一个命名空间不影响其他命名空间"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "H26",
+    "category": "harness",
+    "title": "Provider registry and lifecycle",
+    "required": true,
+    "phase": "M5",
+    "specs": [
+      "spec/a13n-harness/22-provider-subsystem.md"
+    ],
+    "acceptance": [
+      "配置、凭据、可用性与运行会话分开管理",
+      "可选依赖缺失在使用时返回配置错误，不破坏基础导入"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "H27",
+    "category": "harness",
+    "title": "Python foundation interoperability",
+    "required": true,
+    "phase": "M6",
+    "specs": [
+      "spec/a13n-harness/01-pydantic-ai-foundation.md"
+    ],
+    "acceptance": [
+      "独立 Python 实现能与公开的 Pydantic AI 扩展类型协作",
+      "互操作测试不导入任何 a13n 包"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "H28",
+    "category": "harness",
+    "title": "Domain identity and serialization",
+    "required": true,
+    "phase": "M2",
+    "specs": [
+      "spec/a13n-harness/02-domain-model.md"
+    ],
+    "acceptance": [
+      "Agent、thread、run、attempt 与调用身份不能互相替换",
+      "序列化往返保留公开字段与兼容扩展"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "S01",
+    "category": "service",
+    "title": "Organizations, workspaces and grants",
+    "required": true,
+    "phase": "M3",
+    "specs": [
+      "spec/a13n-service/03-tenancy.md"
+    ],
+    "acceptance": [
+      "跨组织和工作空间访问均有拒绝测试",
+      "角色、服务账号、API key、邀请、审计和撤销覆盖对应 HTTP 操作"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "S02",
+    "category": "service",
+    "title": "Login and identity lifecycle",
+    "required": true,
+    "phase": "M3",
+    "specs": [
+      "spec/a13n-service/03-tenancy.md"
+    ],
+    "acceptance": [
+      "bootstrap、登录退出、会话、密码重置、邮件变更与邀请接受可往返",
+      "默认单组织入驻行为不误称完整 SaaS 开户"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "S03",
+    "category": "service",
+    "title": "Resource editing and revisions",
+    "required": true,
+    "phase": "M3",
+    "specs": [
+      "spec/a13n-service/04-resources.md"
+    ],
+    "acceptance": [
+      "Agent、Skills 与资源的修订不可变且默认版本可切换",
+      "并发更新携带版本条件，冲突不会覆盖他人更改"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "S04",
+    "category": "service",
+    "title": "Agent Composer",
+    "required": true,
+    "phase": "M7",
+    "specs": [
+      "spec/a13n-service/04-resources.md"
+    ],
+    "acceptance": [
+      "自然语言辅助创建与修改 Agent 可以形成待确认变更",
+      "确认前不提交资源修订，取消与过期请求不生效"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "S05",
+    "category": "service",
+    "title": "Sessions, threads and inbox",
+    "required": true,
+    "phase": "M2",
+    "specs": [
+      "spec/a13n-service/05-runs.md"
+    ],
+    "acceptance": [
+      "输入可排队、编辑、重排、撤回并保持提交身份",
+      "某 run 未消费的输入在 run 结束或等待后仍可继续处理",
+      "归档线程永久关闭新增输入与恢复；撤回待处理输入并保留历史，不能新增原契约没有的取消归档行为"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "S06",
+    "category": "service",
+    "title": "Run attempts and recovery authority",
+    "required": true,
+    "phase": "M2",
+    "specs": [
+      "spec/a13n-service/05-runs.md"
+    ],
+    "acceptance": [
+      "同一 thread 同时只有一个合法执行者可提交",
+      "旧 attempt 迟到写入被 fencing 拒绝；重启后从已提交 checkpoint 恢复",
+      "恢复重试有attempt上限；等待恢复的任务不会被持续失败或竞争中的任务长期饿死"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "S07",
+    "category": "service",
+    "title": "Steering, interrupt, answer and resume",
+    "required": true,
+    "phase": "M2",
+    "specs": [
+      "spec/a13n-service/05-runs.md"
+    ],
+    "acceptance": [
+      "运行中追加指令与下一轮排队区分清楚",
+      "中断、等待、回答与恢复的竞态通过独立场景验收",
+      "单个回答可先持久保存；全部收齐前不启动工具；最后一条回答和唯一后续run一起提交，失败时共同回滚",
+      "重复相同答案返回既有结果，不同答案冲突；完整resume必须与已保存答案一致；128项与256 KiB边界有独立测试",
+      "取消不撤销外部副作用且不自动取消子run；已失败/取消run没有独立retry操作，新输入和同run attempt恢复必须区分"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "S08",
+    "category": "service",
+    "title": "Fork and lineage",
+    "required": true,
+    "phase": "M2",
+    "specs": [
+      "spec/a13n-service/05-runs.md"
+    ],
+    "acceptance": [
+      "从指定运行状态分支，父子历史与附件引用可追溯",
+      "分支写入不能改变父线程历史",
+      "分支来源必须是sealed run；从等待态分支时拒绝继承的审批并结束未答调用，不解决原线程的等待"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "S09",
+    "category": "service",
+    "title": "Environment lifecycle and bindings",
+    "required": true,
+    "phase": "M4",
+    "specs": [
+      "spec/a13n-service/06-environments.md"
+    ],
+    "acceptance": [
+      "模板、创建、挂载、共享、停止和删除与引用生命周期一致",
+      "外部创建成功但本地提交失败时可恢复或回收孤儿环境"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "S10",
+    "category": "service",
+    "title": "Durable facts and replayable delivery",
+    "required": true,
+    "phase": "M2",
+    "specs": [
+      "spec/a13n-service/07-facts-and-delivery.md"
+    ],
+    "acceptance": [
+      "checkpoint、消息事实与 outbox 在同一权威提交边界关联",
+      "流缺失时可查询持久结果；Queue 重复和乱序不损坏顺序"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "S11",
+    "category": "service",
+    "title": "Subscriptions and webhooks",
+    "required": true,
+    "phase": "M5",
+    "specs": [
+      "spec/a13n-service/07-facts-and-delivery.md"
+    ],
+    "acceptance": [
+      "筛选订阅、签名、重试、投递记录和手动重投可验证",
+      "重复通知不被描述成外部恰好执行一次"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "S12",
+    "category": "service",
+    "title": "Provider and connection resources",
+    "required": true,
+    "phase": "M5",
+    "specs": [
+      "spec/a13n-service/08-providers.md"
+    ],
+    "acceptance": [
+      "配置与秘密分开存储；测试连接不会伪造已验证状态",
+      "OAuth回调绑定请求、连接和租户；MCP工具缓存可刷新"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "S13",
+    "category": "service",
+    "title": "Runtime composition and extension seams",
+    "required": true,
+    "phase": "M6",
+    "specs": [
+      "spec/a13n-service/09-runtime.md"
+    ],
+    "acceptance": [
+      "可自定义身份验证、授权来源、资源绑定和运行准入",
+      "Python 扩展在 Cloudflare Sandbox 或本地进程执行，不在 Workers 内伪造 Python 宿主"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "S14",
+    "category": "service",
+    "title": "HTTP contract and errors",
+    "required": true,
+    "phase": "M3",
+    "specs": [
+      "spec/a13n-service/10-api.md"
+    ],
+    "acceptance": [
+      "235 个 HTTP 操作逐项重写，状态码、分页、错误和条件请求均有验收",
+      "保留 SSE、二进制上传下载和资源访问边界"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "S15",
+    "category": "service",
+    "title": "Hosted file and record memories",
+    "required": true,
+    "phase": "M4",
+    "specs": [
+      "spec/a13n-service/11-memory.md"
+    ],
+    "acceptance": [
+      "Service 记忆资源、线程挂载和执行期访问采用相同权限",
+      "版本恢复、命名空间清理、未知远端状态均有恢复测试"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "S16",
+    "category": "service",
+    "title": "Logs, metrics, traces and usage queries",
+    "required": true,
+    "phase": "M5",
+    "specs": [
+      "spec/a13n-service/12-observability.md"
+    ],
+    "acceptance": [
+      "运行、模型、工具、子任务与 trace 关联可查询",
+      "token 用量、估算成本和未知成本分别显示，导出不会泄漏密钥"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "E01",
+    "category": "environment",
+    "title": "Daemon lifecycle and configuration",
+    "required": true,
+    "phase": "M4",
+    "specs": [
+      "spec/a13n-envd/01-daemon-lifecycle-and-configuration.md"
+    ],
+    "acceptance": [
+      "独立二进制支持配置、启动、关闭、重连和版本检查",
+      "启动失败有机器可读诊断，日志不含认证材料"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "E02",
+    "category": "environment",
+    "title": "Environment RPC compatibility",
+    "required": true,
+    "phase": "M4",
+    "specs": [
+      "spec/a13n-envd/02-eip-protocol.md"
+    ],
+    "acceptance": [
+      "50 个公开方法都有新实现和独立协议场景",
+      "初始化、方法协商、错误族和协议版本不依赖上游二进制"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "E03",
+    "category": "environment",
+    "title": "Transport, sessions and attachment",
+    "required": true,
+    "phase": "M4",
+    "specs": [
+      "spec/a13n-envd/03-transports-and-sessions.md"
+    ],
+    "acceptance": [
+      "HTTP、WebSocket与已有会话附着按能力工作",
+      "重复连接、keepalive过期、关闭和重连不越过会话范围"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "E04",
+    "category": "environment",
+    "title": "File and directory operations",
+    "required": true,
+    "phase": "M4",
+    "specs": [
+      "spec/a13n-envd/04-resource-operations.md"
+    ],
+    "acceptance": [
+      "文本与二进制读写、分页搜索、patch、复制、移动和删除覆盖",
+      "文件 writer commit/abort 保持原子可观察结果；路径与符号链接边界有测试"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "E05",
+    "category": "environment",
+    "title": "Commands and process handles",
+    "required": true,
+    "phase": "M4",
+    "specs": [
+      "spec/a13n-envd/05-command-and-process-execution.md"
+    ],
+    "acceptance": [
+      "shell.exec 与 argv 执行区分；进程输入、等待、信号、终止、端口检查可用",
+      "PTY resize和终端行为从会话协议及工作台端到端验收"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "E06",
+    "category": "environment",
+    "title": "Output retention and byte offsets",
+    "required": true,
+    "phase": "M4",
+    "specs": [
+      "spec/a13n-envd/06-output-retention.md"
+    ],
+    "acceptance": [
+      "输出按字节偏移量重读可得到相同数据；截断、释放与保留期明确",
+      "原生字节与 SDK 文本来源区分，不将字符偏移冒充字节偏移"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "E07",
+    "category": "environment",
+    "title": "Native execution boundaries",
+    "required": true,
+    "phase": "M6",
+    "specs": [
+      "spec/a13n-envd/07-execution-isolation.md"
+    ],
+    "acceptance": [
+      "Linux、macOS、Windows 分别验证子进程树与资源清理",
+      "可选隔离机制符合平台能力，工作目录不能被描述成文件系统隔离"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "E08",
+    "category": "environment",
+    "title": "Independently authored protocols and clients",
+    "required": true,
+    "phase": "M1",
+    "specs": [
+      "spec/a13n-envd/08-protocol-source-client-and-generation.md"
+    ],
+    "acceptance": [
+      "从新协议源生成 Asterweft 客户端，不复制原有生成文件",
+      "版本变更有 schema 与客户端漂移检查"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "E09",
+    "category": "environment",
+    "title": "Resource lifetime, receipts and cancellation",
+    "required": true,
+    "phase": "M4",
+    "specs": [
+      "spec/a13n-envd/09-resource-lifetime-and-reclamation.md"
+    ],
+    "acceptance": [
+      "资源释放、过期、receipt查询和operation.cancel符合调用类别",
+      "已执行但响应丢失的操作保留不确定状态，禁止盲目重放"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "E10",
+    "category": "environment",
+    "title": "Desktop screen and input",
+    "required": true,
+    "phase": "M6",
+    "specs": [
+      "spec/a13n-envd/10-computer-use.md"
+    ],
+    "acceptance": [
+      "macOS、Windows、Linux 分别验收观察、点击、移动、拖动、滚动、按键和文本输入",
+      "屏幕坐标、显示器缩放、权限拒绝与输入后观察有真实设备证据"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "W01",
+    "category": "workbench",
+    "title": "Configuration sources and resource catalogue",
+    "required": true,
+    "phase": "M7",
+    "specs": [
+      "spec/a13n-harness-ui/01-configuration-and-resource-catalog.md"
+    ],
+    "acceptance": [
+      "用户、项目和默认配置来源按规则合并",
+      "无效 YAML/JSON 给出精确位置且不会破坏已加载资源"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "W02",
+    "category": "workbench",
+    "title": "Extensions and capability discovery",
+    "required": true,
+    "phase": "M7",
+    "specs": [
+      "spec/a13n-harness-ui/01a-extension-discovery-and-management.md"
+    ],
+    "acceptance": [
+      "安装、启用、禁用、发现与配置扩展有一致状态",
+      "可选依赖缺失不会使基础工作台失效"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "W03",
+    "category": "workbench",
+    "title": "Content plugin repositories",
+    "required": true,
+    "phase": "M7",
+    "specs": [
+      "spec/a13n-harness-ui/01b-content-plugin-repositories.md"
+    ],
+    "acceptance": [
+      "仓库来源、版本固定、更新和内容资源发现可验收",
+      "插件更新不偷偷改变正在运行任务绑定的版本"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "W04",
+    "category": "workbench",
+    "title": "Agent, MCP and run composition",
+    "required": true,
+    "phase": "M7",
+    "specs": [
+      "spec/a13n-harness-ui/02-agent-composition-and-snapshots.md"
+    ],
+    "acceptance": [
+      "编辑器、保存配置和运行快照边界一致",
+      "MCP/模型/环境修改只在约定的后续运行生效"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "W05",
+    "category": "workbench",
+    "title": "Model login and compatible account stores",
+    "required": true,
+    "phase": "M7",
+    "specs": [
+      "spec/a13n-harness-ui/02a-model-authentication-and-account-stores.md"
+    ],
+    "acceptance": [
+      "登录、刷新、退出与账号选择有本地和云端路径",
+      "凭据来源兼容公开约定但不会把本地账号自动上传"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "W06",
+    "category": "workbench",
+    "title": "Environment skill discovery",
+    "required": true,
+    "phase": "M7",
+    "specs": [
+      "spec/a13n-harness-ui/02b-environment-skill-sources.md"
+    ],
+    "acceptance": [
+      "用户、本地项目与环境内的技能来源可区分",
+      "访问权限撤销后不能继续读取技能内容"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "W07",
+    "category": "workbench",
+    "title": "Local persistence and recovery",
+    "required": true,
+    "phase": "M7",
+    "specs": [
+      "spec/a13n-harness-ui/03-local-storage-and-recovery.md"
+    ],
+    "acceptance": [
+      "本地配置、会话和输出在应用关闭后可恢复",
+      "损坏记录有诊断，不把旧显示缓存作为执行状态"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "W08",
+    "category": "workbench",
+    "title": "Projects, threads and environments",
+    "required": true,
+    "phase": "M7",
+    "specs": [
+      "spec/a13n-harness-ui/04-projects-threads-and-environments.md"
+    ],
+    "acceptance": [
+      "项目与线程切换、归档、重命名与环境绑定可交互操作",
+      "多视图指向同一权威线程而不会创建重复任务"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "W09",
+    "category": "workbench",
+    "title": "Devices and environment binding",
+    "required": true,
+    "phase": "M6",
+    "specs": [
+      "spec/a13n-harness-ui/04a-devices-and-environment-bindings.md"
+    ],
+    "acceptance": [
+      "本地与远程设备可识别、连接、解绑和重新连接",
+      "离线设备状态明确；撤销设备后已排队命令不能继续执行"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "W10",
+    "category": "workbench",
+    "title": "Runs and child-agent surfaces",
+    "required": true,
+    "phase": "M7",
+    "specs": [
+      "spec/a13n-harness-ui/05-runtime-subagents-and-surfaces.md"
+    ],
+    "acceptance": [
+      "父子任务状态、等待与取消在工作台和TUI呈现一致",
+      "连接断开只影响观察，显式取消才改变执行状态"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "W11",
+    "category": "workbench",
+    "title": "Setup and readiness diagnostics",
+    "required": true,
+    "phase": "M7",
+    "specs": [
+      "spec/a13n-harness-ui/06-setup-and-environment-readiness.md"
+    ],
+    "acceptance": [
+      "模型凭据、环境、桌面权限与必要依赖分别检查",
+      "演示就绪与真实执行成功不混为一条绿色状态"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "W12",
+    "category": "workbench",
+    "title": "Interactive terminal UI",
+    "required": true,
+    "phase": "M6",
+    "specs": [
+      "spec/a13n-harness-ui/07-interactive-cli.md"
+    ],
+    "acceptance": [
+      "TUI支持会话、模型切换、流式输出、附件、命令与交互等待",
+      "键盘退出、取消和恢复行为可在终端重现"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "W13",
+    "category": "workbench",
+    "title": "File memory organization",
+    "required": true,
+    "phase": "M7",
+    "specs": [
+      "spec/a13n-harness-ui/08-file-memory.md"
+    ],
+    "acceptance": [
+      "工作台可浏览、编辑、组织和恢复记忆文件",
+      "自动整理有历史和并发冲突处理，不能静默覆盖用户更改"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "W14",
+    "category": "workbench",
+    "title": "MCP Apps host",
+    "required": true,
+    "phase": "M7",
+    "specs": [
+      "spec/a13n-harness-ui/09-mcp-apps.md"
+    ],
+    "acceptance": [
+      "MCP应用可在受限iframe中渲染并调用所属工具",
+      "来源、会话隔离与请求关联可测试，应用失效不拖垮主UI"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "W15",
+    "category": "workbench",
+    "title": "Collaborative drafts and conversations",
+    "required": true,
+    "phase": "M7",
+    "specs": [
+      "spec/a13n-harness-ui/webui/01-collaborative-conversations.md"
+    ],
+    "acceptance": [
+      "两客户端协作草稿、presence与提交状态收敛",
+      "断线重连不重复发送消息，提交权威在服务端"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "W16",
+    "category": "workbench",
+    "title": "Native host computer sharing",
+    "required": true,
+    "phase": "M6",
+    "specs": [
+      "spec/a13n-harness-ui/webui/02-host-computer-sharing.md"
+    ],
+    "acceptance": [
+      "主机屏幕共享和输入控制通过已绑定设备执行",
+      "观看与控制能力区分；断线和撤销后停止新输入"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "W17",
+    "category": "workbench",
+    "title": "Web distribution and hosted assets",
+    "required": true,
+    "phase": "M7",
+    "specs": [
+      "spec/a13n-harness-ui/webui/03-distribution.md"
+    ],
+    "acceptance": [
+      "Console与工作台可独立构建并使用同一契约版本",
+      "静态资源、深链接和缓存更新在Workers上验证"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "W18",
+    "category": "workbench",
+    "title": "Workspace files, editors and terminal",
+    "required": true,
+    "phase": "M7",
+    "specs": [
+      "spec/a13n-harness-ui/webui/04-workbench-interaction.md"
+    ],
+    "acceptance": [
+      "文件树、编辑、预览、差异、终端与任务面板可往返",
+      "大输出和长会话不阻塞输入，操作结果来自实际环境"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "W19",
+    "category": "workbench",
+    "title": "Saved output comments",
+    "required": true,
+    "phase": "M7",
+    "specs": [
+      "spec/a13n-harness-ui/webui/05-output-comments.md"
+    ],
+    "acceptance": [
+      "输出可附评论并关联稳定内容身份",
+      "编辑、删除、刷新、权限与并发更新有用户流程验收"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "U01",
+    "category": "console",
+    "title": "Administration console",
+    "required": true,
+    "phase": "M7",
+    "specs": [
+      "spec/frontend/console.md"
+    ],
+    "acceptance": [
+      "覆盖Agent、模型、Provider、Skills、连接、环境、记忆、团队和设置的所有公开操作",
+      "资源校验、导入导出、确认提交、会话和运行浏览形成完整流程"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "U02",
+    "category": "console",
+    "title": "Trace and usage interface",
+    "required": true,
+    "phase": "M7",
+    "specs": [
+      "spec/frontend/console.md"
+    ],
+    "acceptance": [
+      "运行trace可按attempt、模型与工具层次定位",
+      "用量概览和未知价格清楚显示，不被描述成支付账单"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "U03",
+    "category": "frontend",
+    "title": "Independent design system",
+    "required": true,
+    "phase": "M7",
+    "specs": [
+      "spec/frontend/design-system.md"
+    ],
+    "acceptance": [
+      "独立品牌、图标、布局与样式；交互任务覆盖原有功能",
+      "键盘、焦点、窄屏、明暗主题、中英语言和减弱动画有可访问测试"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "P01",
+    "category": "protocol",
+    "title": "Observation stream",
+    "required": true,
+    "phase": "M2",
+    "specs": [
+      "spec/a13n-stream-protocol/00-overview.md"
+    ],
+    "acceptance": [
+      "增量输出、工具、子任务与自定义事件有稳定身份",
+      "断点重连、保留窗口外缺口、完整结果回读与结束状态分别测试"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "G01",
+    "category": "governance",
+    "title": "Reference architecture and packaging boundaries",
+    "required": true,
+    "phase": "M1",
+    "specs": [
+      "spec/README.md",
+      "spec/a13n-envd/00-overview.md",
+      "spec/a13n-envd/README.md",
+      "spec/a13n-harness/00-overview.md",
+      "spec/a13n-harness/README.md",
+      "spec/a13n-harness-ui/00-overview.md",
+      "spec/a13n-harness-ui/README.md",
+      "spec/a13n-harness-ui/webui/00-overview.md",
+      "spec/a13n-harness-ui/webui/README.md",
+      "spec/a13n-service/00-overview.md",
+      "spec/a13n-service/02-layout.md",
+      "spec/a13n-service/README.md",
+      "spec/a13n-service/glossary.md",
+      "spec/a13n-stream-protocol/README.md",
+      "spec/frontend/README.md"
+    ],
+    "acceptance": [
+      "运行时、Service、Console、Workbench和环境客户端均有独立包边界",
+      "所有基线文档进入可追溯目录，新增需求不能绕过清单"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "G02",
+    "category": "protocol",
+    "title": "API conventions",
+    "required": true,
+    "phase": "M1",
+    "specs": [
+      "spec/api-conventions.md"
+    ],
+    "acceptance": [
+      "独立描述JSON表示、分页、错误、条件写和资源引用",
+      "幂等键重复、相同键不同载荷和过期键有测试"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "G03",
+    "category": "protocol",
+    "title": "Data conventions and migrations",
+    "required": true,
+    "phase": "M1",
+    "specs": [
+      "spec/data-conventions.md"
+    ],
+    "acceptance": [
+      "稳定身份、版本、时间和字段语义有跨语言样例",
+      "迁移支持旧数据读取并避免多权威互相覆盖"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "G04",
+    "category": "protocol",
+    "title": "Interaction semantics",
+    "required": true,
+    "phase": "M2",
+    "specs": [
+      "spec/interaction-model.md"
+    ],
+    "acceptance": [
+      "提交与消费的run关联正确；等待态结束当前Interaction",
+      "关闭本地流不取消后台运行，后续run不是同一Interaction"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "G05",
+    "category": "distribution",
+    "title": "Build, documentation and release operations",
+    "required": true,
+    "phase": "M8",
+    "specs": [
+      "spec/repository-model.md"
+    ],
+    "acceptance": [
+      "包、客户端、桌面二进制与镜像独立版本和来源可查",
+      "文档示例、迁移、发布产物校验、恢复演练与依赖声明齐全"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "C01",
+    "category": "clients",
+    "title": "Four service SDKs and remote CLI",
+    "required": true,
+    "phase": "M6",
+    "specs": [
+      "docs/a13n-service/sdks.md"
+    ],
+    "acceptance": [
+      "Python、TypeScript、Go、Rust低层API及高层Interaction独立重写",
+      "等待、SSE缺口、取消观察、附件、恢复和CLI退出码覆盖各语言固定基线"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "C02",
+    "category": "cloudflare",
+    "title": "Cloudflare deployment and independent local companion",
+    "required": true,
+    "phase": "M8",
+    "specs": [
+      "spec/a13n-service/00-overview.md",
+      "spec/a13n-envd/00-overview.md"
+    ],
+    "acceptance": [
+      "云端默认配置不需要外部PostgreSQL、Redis或其他宿主服务",
+      "本地客户端独立重写且支持离线后重连；不可缺少的私有测试产品有公开替代路径"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "C03",
+    "category": "compatibility",
+    "title": "Native custom tools and extension execution",
+    "required": true,
+    "phase": "M6",
+    "specs": [
+      "spec/a13n-harness/05-plugin-system.md",
+      "spec/a13n-service/09-runtime.md"
+    ],
+    "acceptance": [
+      "自定义Python工具与Pydantic扩展可在真正Python运行时执行",
+      "云端将Python执行放入Cloudflare Sandbox，保留取消、错误和输出契约"
+    ],
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  }
+]

@@ -1,0 +1,3066 @@
+[
+  {
+    "id": "API001",
+    "method": "POST",
+    "path": "/api/v1/agent-composer",
+    "tags": [
+      "agents"
+    ],
+    "requirement": "S04",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API002",
+    "method": "GET",
+    "path": "/api/v1/agents",
+    "tags": [
+      "agents"
+    ],
+    "requirement": "S03",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API003",
+    "method": "POST",
+    "path": "/api/v1/agents",
+    "tags": [
+      "agents"
+    ],
+    "requirement": "S03",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API004",
+    "method": "POST",
+    "path": "/api/v1/agents/validate",
+    "tags": [
+      "agents"
+    ],
+    "requirement": "S03",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API005",
+    "method": "GET",
+    "path": "/api/v1/agents/{agent_id}",
+    "tags": [
+      "agents"
+    ],
+    "requirement": "S03",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API006",
+    "method": "PATCH",
+    "path": "/api/v1/agents/{agent_id}",
+    "tags": [
+      "agents"
+    ],
+    "requirement": "S03",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API007",
+    "method": "POST",
+    "path": "/api/v1/agents/{agent_id}/archive",
+    "tags": [
+      "agents"
+    ],
+    "requirement": "S03",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API008",
+    "method": "DELETE",
+    "path": "/api/v1/agents/{agent_id}/avatar",
+    "tags": [
+      "agents"
+    ],
+    "requirement": "S03",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API009",
+    "method": "GET",
+    "path": "/api/v1/agents/{agent_id}/avatar",
+    "tags": [
+      "agents"
+    ],
+    "requirement": "S03",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API010",
+    "method": "PUT",
+    "path": "/api/v1/agents/{agent_id}/avatar",
+    "tags": [
+      "agents"
+    ],
+    "requirement": "S03",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API011",
+    "method": "POST",
+    "path": "/api/v1/agents/{agent_id}/duplicate",
+    "tags": [
+      "agents"
+    ],
+    "requirement": "S03",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API012",
+    "method": "GET",
+    "path": "/api/v1/agents/{agent_id}/revisions",
+    "tags": [
+      "agents"
+    ],
+    "requirement": "S03",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API013",
+    "method": "POST",
+    "path": "/api/v1/agents/{agent_id}/revisions",
+    "tags": [
+      "agents"
+    ],
+    "requirement": "S03",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API014",
+    "method": "GET",
+    "path": "/api/v1/agents/{agent_id}/revisions/{revision_id}",
+    "tags": [
+      "agents"
+    ],
+    "requirement": "S03",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API015",
+    "method": "POST",
+    "path": "/api/v1/agents/{agent_id}/revisions/{revision_id}/set-default",
+    "tags": [
+      "agents"
+    ],
+    "requirement": "S03",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API016",
+    "method": "POST",
+    "path": "/api/v1/agents/{agent_id}/unarchive",
+    "tags": [
+      "agents"
+    ],
+    "requirement": "S03",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API017",
+    "method": "GET",
+    "path": "/api/v1/assets",
+    "tags": [
+      "assets"
+    ],
+    "requirement": "S03",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API018",
+    "method": "POST",
+    "path": "/api/v1/assets",
+    "tags": [
+      "assets"
+    ],
+    "requirement": "S03",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API019",
+    "method": "DELETE",
+    "path": "/api/v1/assets/{asset_id}",
+    "tags": [
+      "assets"
+    ],
+    "requirement": "S03",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API020",
+    "method": "GET",
+    "path": "/api/v1/assets/{asset_id}",
+    "tags": [
+      "assets"
+    ],
+    "requirement": "S03",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API021",
+    "method": "GET",
+    "path": "/api/v1/assets/{asset_id}/content",
+    "tags": [
+      "assets"
+    ],
+    "requirement": "S03",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API022",
+    "method": "POST",
+    "path": "/api/v1/auth/bootstrap",
+    "tags": [
+      "auth"
+    ],
+    "requirement": "S02",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API023",
+    "method": "GET",
+    "path": "/api/v1/auth/configuration",
+    "tags": [
+      "auth"
+    ],
+    "requirement": "S02",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API024",
+    "method": "POST",
+    "path": "/api/v1/auth/email-change/confirm",
+    "tags": [
+      "auth"
+    ],
+    "requirement": "S02",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API025",
+    "method": "POST",
+    "path": "/api/v1/auth/login",
+    "tags": [
+      "auth"
+    ],
+    "requirement": "S02",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API026",
+    "method": "POST",
+    "path": "/api/v1/auth/logout",
+    "tags": [
+      "auth"
+    ],
+    "requirement": "S02",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API027",
+    "method": "POST",
+    "path": "/api/v1/auth/password-reset",
+    "tags": [
+      "auth"
+    ],
+    "requirement": "S02",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API028",
+    "method": "POST",
+    "path": "/api/v1/auth/password-reset/confirm",
+    "tags": [
+      "auth"
+    ],
+    "requirement": "S02",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API029",
+    "method": "GET",
+    "path": "/api/v1/auth/session",
+    "tags": [
+      "auth"
+    ],
+    "requirement": "S02",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API030",
+    "method": "GET",
+    "path": "/api/v1/connections",
+    "tags": [
+      "connections"
+    ],
+    "requirement": "S12",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API031",
+    "method": "POST",
+    "path": "/api/v1/connections",
+    "tags": [
+      "connections"
+    ],
+    "requirement": "S12",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API032",
+    "method": "GET",
+    "path": "/api/v1/connections/callback",
+    "tags": [
+      "connections"
+    ],
+    "requirement": "S12",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API033",
+    "method": "GET",
+    "path": "/api/v1/connections/redirect-uri",
+    "tags": [
+      "connections"
+    ],
+    "requirement": "S12",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API034",
+    "method": "GET",
+    "path": "/api/v1/connections/{connection_id}",
+    "tags": [
+      "connections"
+    ],
+    "requirement": "S12",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API035",
+    "method": "PATCH",
+    "path": "/api/v1/connections/{connection_id}",
+    "tags": [
+      "connections"
+    ],
+    "requirement": "S12",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API036",
+    "method": "POST",
+    "path": "/api/v1/connections/{connection_id}/authorize",
+    "tags": [
+      "connections"
+    ],
+    "requirement": "S12",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API037",
+    "method": "POST",
+    "path": "/api/v1/connections/{connection_id}/revoke",
+    "tags": [
+      "connections"
+    ],
+    "requirement": "S12",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API038",
+    "method": "POST",
+    "path": "/api/v1/connections/{connection_id}/test",
+    "tags": [
+      "connections"
+    ],
+    "requirement": "S12",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API039",
+    "method": "GET",
+    "path": "/api/v1/connections/{connection_id}/tools",
+    "tags": [
+      "connections"
+    ],
+    "requirement": "S12",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API040",
+    "method": "GET",
+    "path": "/api/v1/connector-providers",
+    "tags": [
+      "providers"
+    ],
+    "requirement": "S12",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API041",
+    "method": "POST",
+    "path": "/api/v1/connector-providers",
+    "tags": [
+      "providers"
+    ],
+    "requirement": "S12",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API042",
+    "method": "GET",
+    "path": "/api/v1/connector-providers/{provider_id}",
+    "tags": [
+      "providers"
+    ],
+    "requirement": "S12",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API043",
+    "method": "PATCH",
+    "path": "/api/v1/connector-providers/{provider_id}",
+    "tags": [
+      "providers"
+    ],
+    "requirement": "S12",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API044",
+    "method": "GET",
+    "path": "/api/v1/connector-providers/{provider_id}/apps",
+    "tags": [
+      "connections"
+    ],
+    "requirement": "S12",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API045",
+    "method": "GET",
+    "path": "/api/v1/connector-providers/{provider_id}/apps/{app}",
+    "tags": [
+      "connections"
+    ],
+    "requirement": "S12",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API046",
+    "method": "GET",
+    "path": "/api/v1/connector-providers/{provider_id}/apps/{app}/actions",
+    "tags": [
+      "connections"
+    ],
+    "requirement": "S12",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API047",
+    "method": "POST",
+    "path": "/api/v1/connector-providers/{provider_id}/test",
+    "tags": [
+      "providers"
+    ],
+    "requirement": "S12",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API048",
+    "method": "GET",
+    "path": "/api/v1/environment-providers",
+    "tags": [
+      "providers"
+    ],
+    "requirement": "S12",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API049",
+    "method": "POST",
+    "path": "/api/v1/environment-providers",
+    "tags": [
+      "providers"
+    ],
+    "requirement": "S12",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API050",
+    "method": "GET",
+    "path": "/api/v1/environment-providers/{provider_id}",
+    "tags": [
+      "providers"
+    ],
+    "requirement": "S12",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API051",
+    "method": "PATCH",
+    "path": "/api/v1/environment-providers/{provider_id}",
+    "tags": [
+      "providers"
+    ],
+    "requirement": "S12",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API052",
+    "method": "POST",
+    "path": "/api/v1/environment-providers/{provider_id}/test",
+    "tags": [
+      "providers"
+    ],
+    "requirement": "S12",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API053",
+    "method": "GET",
+    "path": "/api/v1/environment-templates",
+    "tags": [
+      "environments"
+    ],
+    "requirement": "S09",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API054",
+    "method": "POST",
+    "path": "/api/v1/environment-templates",
+    "tags": [
+      "environments"
+    ],
+    "requirement": "S09",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API055",
+    "method": "GET",
+    "path": "/api/v1/environment-templates/{template_id}",
+    "tags": [
+      "environments"
+    ],
+    "requirement": "S09",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API056",
+    "method": "PATCH",
+    "path": "/api/v1/environment-templates/{template_id}",
+    "tags": [
+      "environments"
+    ],
+    "requirement": "S09",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API057",
+    "method": "GET",
+    "path": "/api/v1/environments",
+    "tags": [
+      "environments"
+    ],
+    "requirement": "S09",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API058",
+    "method": "POST",
+    "path": "/api/v1/environments",
+    "tags": [
+      "environments"
+    ],
+    "requirement": "S09",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API059",
+    "method": "DELETE",
+    "path": "/api/v1/environments/{environment_id}",
+    "tags": [
+      "environments"
+    ],
+    "requirement": "S09",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API060",
+    "method": "GET",
+    "path": "/api/v1/environments/{environment_id}",
+    "tags": [
+      "environments"
+    ],
+    "requirement": "S09",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API061",
+    "method": "PATCH",
+    "path": "/api/v1/environments/{environment_id}",
+    "tags": [
+      "environments"
+    ],
+    "requirement": "S09",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API062",
+    "method": "POST",
+    "path": "/api/v1/environments/{environment_id}/stop",
+    "tags": [
+      "environments"
+    ],
+    "requirement": "S09",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API063",
+    "method": "POST",
+    "path": "/api/v1/invitations/{invitation_id}/accept",
+    "tags": [
+      "auth"
+    ],
+    "requirement": "S02",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API064",
+    "method": "GET",
+    "path": "/api/v1/mcp-servers",
+    "tags": [
+      "connections"
+    ],
+    "requirement": "S12",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API065",
+    "method": "GET",
+    "path": "/api/v1/media-understanding-defaults",
+    "tags": [
+      "models"
+    ],
+    "requirement": "H16",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API066",
+    "method": "PUT",
+    "path": "/api/v1/media-understanding-defaults",
+    "tags": [
+      "models"
+    ],
+    "requirement": "H16",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API067",
+    "method": "GET",
+    "path": "/api/v1/memories",
+    "tags": [
+      "memories"
+    ],
+    "requirement": "S15",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API068",
+    "method": "POST",
+    "path": "/api/v1/memories",
+    "tags": [
+      "memories"
+    ],
+    "requirement": "S15",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API069",
+    "method": "DELETE",
+    "path": "/api/v1/memories/{memory_id}",
+    "tags": [
+      "memories"
+    ],
+    "requirement": "S15",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API070",
+    "method": "GET",
+    "path": "/api/v1/memories/{memory_id}",
+    "tags": [
+      "memories"
+    ],
+    "requirement": "S15",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API071",
+    "method": "PATCH",
+    "path": "/api/v1/memories/{memory_id}",
+    "tags": [
+      "memories"
+    ],
+    "requirement": "S15",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API072",
+    "method": "GET",
+    "path": "/api/v1/memories/{memory_id}/files",
+    "tags": [
+      "memories"
+    ],
+    "requirement": "S15",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API073",
+    "method": "POST",
+    "path": "/api/v1/memories/{memory_id}/files",
+    "tags": [
+      "memories"
+    ],
+    "requirement": "S15",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API074",
+    "method": "POST",
+    "path": "/api/v1/memories/{memory_id}/files/move",
+    "tags": [
+      "memories"
+    ],
+    "requirement": "S15",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API075",
+    "method": "DELETE",
+    "path": "/api/v1/memories/{memory_id}/files/{path}",
+    "tags": [
+      "memories"
+    ],
+    "requirement": "S15",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API076",
+    "method": "GET",
+    "path": "/api/v1/memories/{memory_id}/files/{path}",
+    "tags": [
+      "memories"
+    ],
+    "requirement": "S15",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API077",
+    "method": "PUT",
+    "path": "/api/v1/memories/{memory_id}/files/{path}",
+    "tags": [
+      "memories"
+    ],
+    "requirement": "S15",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API078",
+    "method": "GET",
+    "path": "/api/v1/memories/{memory_id}/records",
+    "tags": [
+      "memories"
+    ],
+    "requirement": "S15",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API079",
+    "method": "POST",
+    "path": "/api/v1/memories/{memory_id}/records",
+    "tags": [
+      "memories"
+    ],
+    "requirement": "S15",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API080",
+    "method": "POST",
+    "path": "/api/v1/memories/{memory_id}/records/search",
+    "tags": [
+      "memories"
+    ],
+    "requirement": "S15",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API081",
+    "method": "DELETE",
+    "path": "/api/v1/memories/{memory_id}/records/{record_id}",
+    "tags": [
+      "memories"
+    ],
+    "requirement": "S15",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API082",
+    "method": "PUT",
+    "path": "/api/v1/memories/{memory_id}/records/{record_id}",
+    "tags": [
+      "memories"
+    ],
+    "requirement": "S15",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API083",
+    "method": "DELETE",
+    "path": "/api/v1/memories/{memory_id}/revisions",
+    "tags": [
+      "memories"
+    ],
+    "requirement": "S15",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API084",
+    "method": "GET",
+    "path": "/api/v1/memories/{memory_id}/revisions",
+    "tags": [
+      "memories"
+    ],
+    "requirement": "S15",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API085",
+    "method": "GET",
+    "path": "/api/v1/memories/{memory_id}/revisions/{seq}",
+    "tags": [
+      "memories"
+    ],
+    "requirement": "S15",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API086",
+    "method": "POST",
+    "path": "/api/v1/memories/{memory_id}/revisions/{seq}/restore",
+    "tags": [
+      "memories"
+    ],
+    "requirement": "S15",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API087",
+    "method": "GET",
+    "path": "/api/v1/memory-providers",
+    "tags": [
+      "providers"
+    ],
+    "requirement": "S12",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API088",
+    "method": "POST",
+    "path": "/api/v1/memory-providers",
+    "tags": [
+      "providers"
+    ],
+    "requirement": "S12",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API089",
+    "method": "GET",
+    "path": "/api/v1/memory-providers/{provider_id}",
+    "tags": [
+      "providers"
+    ],
+    "requirement": "S12",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API090",
+    "method": "PATCH",
+    "path": "/api/v1/memory-providers/{provider_id}",
+    "tags": [
+      "providers"
+    ],
+    "requirement": "S12",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API091",
+    "method": "POST",
+    "path": "/api/v1/memory-providers/{provider_id}/test",
+    "tags": [
+      "providers"
+    ],
+    "requirement": "S12",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API092",
+    "method": "GET",
+    "path": "/api/v1/model-catalog",
+    "tags": [
+      "models"
+    ],
+    "requirement": "H19",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API093",
+    "method": "GET",
+    "path": "/api/v1/model-providers",
+    "tags": [
+      "providers"
+    ],
+    "requirement": "S12",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API094",
+    "method": "POST",
+    "path": "/api/v1/model-providers",
+    "tags": [
+      "providers"
+    ],
+    "requirement": "S12",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API095",
+    "method": "GET",
+    "path": "/api/v1/model-providers/{provider_id}",
+    "tags": [
+      "providers"
+    ],
+    "requirement": "S12",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API096",
+    "method": "PATCH",
+    "path": "/api/v1/model-providers/{provider_id}",
+    "tags": [
+      "providers"
+    ],
+    "requirement": "S12",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API097",
+    "method": "DELETE",
+    "path": "/api/v1/model-providers/{provider_id}/authorization",
+    "tags": [
+      "providers"
+    ],
+    "requirement": "H18",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API098",
+    "method": "GET",
+    "path": "/api/v1/model-providers/{provider_id}/authorization",
+    "tags": [
+      "providers"
+    ],
+    "requirement": "H18",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API099",
+    "method": "POST",
+    "path": "/api/v1/model-providers/{provider_id}/authorization/callback",
+    "tags": [
+      "providers"
+    ],
+    "requirement": "H18",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API100",
+    "method": "POST",
+    "path": "/api/v1/model-providers/{provider_id}/authorize",
+    "tags": [
+      "providers"
+    ],
+    "requirement": "H18",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API101",
+    "method": "GET",
+    "path": "/api/v1/model-providers/{provider_id}/models",
+    "tags": [
+      "providers"
+    ],
+    "requirement": "S12",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API102",
+    "method": "POST",
+    "path": "/api/v1/model-providers/{provider_id}/test",
+    "tags": [
+      "providers"
+    ],
+    "requirement": "S12",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API103",
+    "method": "GET",
+    "path": "/api/v1/models",
+    "tags": [
+      "models"
+    ],
+    "requirement": "H19",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API104",
+    "method": "POST",
+    "path": "/api/v1/models",
+    "tags": [
+      "models"
+    ],
+    "requirement": "H19",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API105",
+    "method": "GET",
+    "path": "/api/v1/models/{key}",
+    "tags": [
+      "models"
+    ],
+    "requirement": "H19",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API106",
+    "method": "PATCH",
+    "path": "/api/v1/models/{key}",
+    "tags": [
+      "models"
+    ],
+    "requirement": "H19",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API107",
+    "method": "GET",
+    "path": "/api/v1/organizations",
+    "tags": [
+      "tenancy"
+    ],
+    "requirement": "S01",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API108",
+    "method": "GET",
+    "path": "/api/v1/organizations/{organization_id}",
+    "tags": [
+      "tenancy"
+    ],
+    "requirement": "S01",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API109",
+    "method": "PATCH",
+    "path": "/api/v1/organizations/{organization_id}",
+    "tags": [
+      "tenancy"
+    ],
+    "requirement": "S01",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API110",
+    "method": "GET",
+    "path": "/api/v1/organizations/{organization_id}/audit-events",
+    "tags": [
+      "tenancy"
+    ],
+    "requirement": "S01",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API111",
+    "method": "GET",
+    "path": "/api/v1/organizations/{organization_id}/grants",
+    "tags": [
+      "tenancy"
+    ],
+    "requirement": "S01",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API112",
+    "method": "POST",
+    "path": "/api/v1/organizations/{organization_id}/grants",
+    "tags": [
+      "tenancy"
+    ],
+    "requirement": "S01",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API113",
+    "method": "DELETE",
+    "path": "/api/v1/organizations/{organization_id}/grants/{grant_id}",
+    "tags": [
+      "tenancy"
+    ],
+    "requirement": "S01",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API114",
+    "method": "PATCH",
+    "path": "/api/v1/organizations/{organization_id}/grants/{grant_id}",
+    "tags": [
+      "tenancy"
+    ],
+    "requirement": "S01",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API115",
+    "method": "DELETE",
+    "path": "/api/v1/organizations/{organization_id}/icon",
+    "tags": [
+      "tenancy"
+    ],
+    "requirement": "S01",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API116",
+    "method": "GET",
+    "path": "/api/v1/organizations/{organization_id}/icon",
+    "tags": [
+      "tenancy"
+    ],
+    "requirement": "S01",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API117",
+    "method": "PUT",
+    "path": "/api/v1/organizations/{organization_id}/icon",
+    "tags": [
+      "tenancy"
+    ],
+    "requirement": "S01",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API118",
+    "method": "GET",
+    "path": "/api/v1/organizations/{organization_id}/invitations",
+    "tags": [
+      "tenancy"
+    ],
+    "requirement": "S01",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API119",
+    "method": "POST",
+    "path": "/api/v1/organizations/{organization_id}/invitations",
+    "tags": [
+      "tenancy"
+    ],
+    "requirement": "S01",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API120",
+    "method": "POST",
+    "path": "/api/v1/organizations/{organization_id}/invitations/{invitation_id}/resend",
+    "tags": [
+      "tenancy"
+    ],
+    "requirement": "S01",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API121",
+    "method": "POST",
+    "path": "/api/v1/organizations/{organization_id}/invitations/{invitation_id}/revoke",
+    "tags": [
+      "tenancy"
+    ],
+    "requirement": "S01",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API122",
+    "method": "GET",
+    "path": "/api/v1/organizations/{organization_id}/members",
+    "tags": [
+      "tenancy"
+    ],
+    "requirement": "S01",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API123",
+    "method": "GET",
+    "path": "/api/v1/organizations/{organization_id}/workspaces",
+    "tags": [
+      "tenancy"
+    ],
+    "requirement": "S01",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API124",
+    "method": "POST",
+    "path": "/api/v1/organizations/{organization_id}/workspaces",
+    "tags": [
+      "tenancy"
+    ],
+    "requirement": "S01",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API125",
+    "method": "GET",
+    "path": "/api/v1/provider-types/{kind}",
+    "tags": [
+      "providers"
+    ],
+    "requirement": "S12",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API126",
+    "method": "GET",
+    "path": "/api/v1/runs/{run_id}",
+    "tags": [
+      "runs"
+    ],
+    "requirement": "S06",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API127",
+    "method": "PATCH",
+    "path": "/api/v1/runs/{run_id}",
+    "tags": [
+      "runs"
+    ],
+    "requirement": "S06",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API128",
+    "method": "GET",
+    "path": "/api/v1/runs/{run_id}/answers",
+    "tags": [
+      "runs"
+    ],
+    "requirement": "S07",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API129",
+    "method": "POST",
+    "path": "/api/v1/runs/{run_id}/answers",
+    "tags": [
+      "runs"
+    ],
+    "requirement": "S07",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API130",
+    "method": "GET",
+    "path": "/api/v1/runs/{run_id}/attempts",
+    "tags": [
+      "runs"
+    ],
+    "requirement": "S06",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API131",
+    "method": "GET",
+    "path": "/api/v1/runs/{run_id}/attempts/{attempt_id}/trace",
+    "tags": [
+      "runs"
+    ],
+    "requirement": "S16",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API132",
+    "method": "POST",
+    "path": "/api/v1/runs/{run_id}/fork",
+    "tags": [
+      "runs"
+    ],
+    "requirement": "S08",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API133",
+    "method": "POST",
+    "path": "/api/v1/runs/{run_id}/interrupt",
+    "tags": [
+      "runs"
+    ],
+    "requirement": "S07",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API134",
+    "method": "GET",
+    "path": "/api/v1/runs/{run_id}/items",
+    "tags": [
+      "runs"
+    ],
+    "requirement": "S10",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API135",
+    "method": "GET",
+    "path": "/api/v1/runs/{run_id}/lineage",
+    "tags": [
+      "runs"
+    ],
+    "requirement": "S08",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API136",
+    "method": "POST",
+    "path": "/api/v1/runs/{run_id}/resume",
+    "tags": [
+      "runs"
+    ],
+    "requirement": "S07",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API137",
+    "method": "GET",
+    "path": "/api/v1/sessions",
+    "tags": [
+      "runs"
+    ],
+    "requirement": "S05",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API138",
+    "method": "POST",
+    "path": "/api/v1/sessions",
+    "tags": [
+      "runs"
+    ],
+    "requirement": "S05",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API139",
+    "method": "GET",
+    "path": "/api/v1/sessions/{session_id}",
+    "tags": [
+      "runs"
+    ],
+    "requirement": "S05",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API140",
+    "method": "PATCH",
+    "path": "/api/v1/sessions/{session_id}",
+    "tags": [
+      "runs"
+    ],
+    "requirement": "S05",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API141",
+    "method": "GET",
+    "path": "/api/v1/skills",
+    "tags": [
+      "skills"
+    ],
+    "requirement": "S03",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API142",
+    "method": "POST",
+    "path": "/api/v1/skills",
+    "tags": [
+      "skills"
+    ],
+    "requirement": "S03",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API143",
+    "method": "POST",
+    "path": "/api/v1/skills/validate",
+    "tags": [
+      "skills"
+    ],
+    "requirement": "S03",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API144",
+    "method": "GET",
+    "path": "/api/v1/skills/{skill_id}",
+    "tags": [
+      "skills"
+    ],
+    "requirement": "S03",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API145",
+    "method": "PATCH",
+    "path": "/api/v1/skills/{skill_id}",
+    "tags": [
+      "skills"
+    ],
+    "requirement": "S03",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API146",
+    "method": "POST",
+    "path": "/api/v1/skills/{skill_id}/archive",
+    "tags": [
+      "skills"
+    ],
+    "requirement": "S03",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API147",
+    "method": "GET",
+    "path": "/api/v1/skills/{skill_id}/revisions",
+    "tags": [
+      "skills"
+    ],
+    "requirement": "S03",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API148",
+    "method": "POST",
+    "path": "/api/v1/skills/{skill_id}/revisions",
+    "tags": [
+      "skills"
+    ],
+    "requirement": "S03",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API149",
+    "method": "GET",
+    "path": "/api/v1/skills/{skill_id}/revisions/{revision_id}",
+    "tags": [
+      "skills"
+    ],
+    "requirement": "S03",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API150",
+    "method": "GET",
+    "path": "/api/v1/skills/{skill_id}/revisions/{revision_id}/content",
+    "tags": [
+      "skills"
+    ],
+    "requirement": "S03",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API151",
+    "method": "GET",
+    "path": "/api/v1/skills/{skill_id}/revisions/{revision_id}/files/{path}",
+    "tags": [
+      "skills"
+    ],
+    "requirement": "S03",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API152",
+    "method": "POST",
+    "path": "/api/v1/skills/{skill_id}/revisions/{revision_id}/set-default",
+    "tags": [
+      "skills"
+    ],
+    "requirement": "S03",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API153",
+    "method": "POST",
+    "path": "/api/v1/skills/{skill_id}/unarchive",
+    "tags": [
+      "skills"
+    ],
+    "requirement": "S03",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API154",
+    "method": "GET",
+    "path": "/api/v1/subscriptions",
+    "tags": [
+      "subscriptions"
+    ],
+    "requirement": "S11",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API155",
+    "method": "POST",
+    "path": "/api/v1/subscriptions",
+    "tags": [
+      "subscriptions"
+    ],
+    "requirement": "S11",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API156",
+    "method": "DELETE",
+    "path": "/api/v1/subscriptions/{subscription_id}",
+    "tags": [
+      "subscriptions"
+    ],
+    "requirement": "S11",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API157",
+    "method": "GET",
+    "path": "/api/v1/subscriptions/{subscription_id}",
+    "tags": [
+      "subscriptions"
+    ],
+    "requirement": "S11",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API158",
+    "method": "PATCH",
+    "path": "/api/v1/subscriptions/{subscription_id}",
+    "tags": [
+      "subscriptions"
+    ],
+    "requirement": "S11",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API159",
+    "method": "GET",
+    "path": "/api/v1/subscriptions/{subscription_id}/deliveries",
+    "tags": [
+      "subscriptions"
+    ],
+    "requirement": "S11",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API160",
+    "method": "POST",
+    "path": "/api/v1/subscriptions/{subscription_id}/deliveries/{delivery_id}/redeliver",
+    "tags": [
+      "subscriptions"
+    ],
+    "requirement": "S11",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API161",
+    "method": "GET",
+    "path": "/api/v1/threads",
+    "tags": [
+      "runs"
+    ],
+    "requirement": "S05",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API162",
+    "method": "POST",
+    "path": "/api/v1/threads",
+    "tags": [
+      "runs"
+    ],
+    "requirement": "S05",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API163",
+    "method": "GET",
+    "path": "/api/v1/threads/{thread_id}",
+    "tags": [
+      "runs"
+    ],
+    "requirement": "S05",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API164",
+    "method": "PATCH",
+    "path": "/api/v1/threads/{thread_id}",
+    "tags": [
+      "runs"
+    ],
+    "requirement": "S05",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API165",
+    "method": "POST",
+    "path": "/api/v1/threads/{thread_id}/archive",
+    "tags": [
+      "runs"
+    ],
+    "requirement": "S05",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API166",
+    "method": "GET",
+    "path": "/api/v1/threads/{thread_id}/environments",
+    "tags": [
+      "environments"
+    ],
+    "requirement": "S09",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API167",
+    "method": "POST",
+    "path": "/api/v1/threads/{thread_id}/environments",
+    "tags": [
+      "environments"
+    ],
+    "requirement": "S09",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API168",
+    "method": "DELETE",
+    "path": "/api/v1/threads/{thread_id}/environments/{name}",
+    "tags": [
+      "environments"
+    ],
+    "requirement": "S09",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API169",
+    "method": "GET",
+    "path": "/api/v1/threads/{thread_id}/inbox",
+    "tags": [
+      "runs"
+    ],
+    "requirement": "S05",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API170",
+    "method": "POST",
+    "path": "/api/v1/threads/{thread_id}/inbox",
+    "tags": [
+      "runs"
+    ],
+    "requirement": "S05",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API171",
+    "method": "PUT",
+    "path": "/api/v1/threads/{thread_id}/inbox/order",
+    "tags": [
+      "runs"
+    ],
+    "requirement": "S05",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API172",
+    "method": "DELETE",
+    "path": "/api/v1/threads/{thread_id}/inbox/{entry_id}",
+    "tags": [
+      "runs"
+    ],
+    "requirement": "S05",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API173",
+    "method": "GET",
+    "path": "/api/v1/threads/{thread_id}/inbox/{entry_id}",
+    "tags": [
+      "runs"
+    ],
+    "requirement": "S05",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API174",
+    "method": "PATCH",
+    "path": "/api/v1/threads/{thread_id}/inbox/{entry_id}",
+    "tags": [
+      "runs"
+    ],
+    "requirement": "S05",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API175",
+    "method": "GET",
+    "path": "/api/v1/threads/{thread_id}/memories",
+    "tags": [
+      "memories"
+    ],
+    "requirement": "S15",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API176",
+    "method": "POST",
+    "path": "/api/v1/threads/{thread_id}/memories",
+    "tags": [
+      "memories"
+    ],
+    "requirement": "S15",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API177",
+    "method": "DELETE",
+    "path": "/api/v1/threads/{thread_id}/memories/{name}",
+    "tags": [
+      "memories"
+    ],
+    "requirement": "S15",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API178",
+    "method": "PATCH",
+    "path": "/api/v1/threads/{thread_id}/memories/{name}",
+    "tags": [
+      "memories"
+    ],
+    "requirement": "S15",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API179",
+    "method": "GET",
+    "path": "/api/v1/threads/{thread_id}/runs",
+    "tags": [
+      "runs"
+    ],
+    "requirement": "S05",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API180",
+    "method": "GET",
+    "path": "/api/v1/threads/{thread_id}/stream",
+    "tags": [
+      "runs"
+    ],
+    "requirement": "P01",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API181",
+    "method": "GET",
+    "path": "/api/v1/toolsets",
+    "tags": [
+      "agents"
+    ],
+    "requirement": "S03",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API182",
+    "method": "GET",
+    "path": "/api/v1/trace-backend",
+    "tags": [
+      "runs"
+    ],
+    "requirement": "S16",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API183",
+    "method": "GET",
+    "path": "/api/v1/traces",
+    "tags": [
+      "runs"
+    ],
+    "requirement": "S16",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API184",
+    "method": "GET",
+    "path": "/api/v1/traces/{trace_id}",
+    "tags": [
+      "runs"
+    ],
+    "requirement": "S16",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API185",
+    "method": "GET",
+    "path": "/api/v1/traces/{trace_id}/spans",
+    "tags": [
+      "runs"
+    ],
+    "requirement": "S16",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API186",
+    "method": "POST",
+    "path": "/api/v1/uploads",
+    "tags": [
+      "assets"
+    ],
+    "requirement": "S03",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API187",
+    "method": "GET",
+    "path": "/api/v1/usage",
+    "tags": [
+      "usage"
+    ],
+    "requirement": "S16",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API188",
+    "method": "GET",
+    "path": "/api/v1/usage/agents",
+    "tags": [
+      "usage"
+    ],
+    "requirement": "S16",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API189",
+    "method": "GET",
+    "path": "/api/v1/usage/models",
+    "tags": [
+      "usage"
+    ],
+    "requirement": "S16",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API190",
+    "method": "GET",
+    "path": "/api/v1/usage/overview",
+    "tags": [
+      "usage"
+    ],
+    "requirement": "S16",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API191",
+    "method": "GET",
+    "path": "/api/v1/users/me",
+    "tags": [
+      "auth",
+      "tenancy"
+    ],
+    "requirement": "S02",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API192",
+    "method": "PATCH",
+    "path": "/api/v1/users/me",
+    "tags": [
+      "auth",
+      "tenancy"
+    ],
+    "requirement": "S02",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API193",
+    "method": "GET",
+    "path": "/api/v1/users/me/audit-events",
+    "tags": [
+      "auth",
+      "tenancy"
+    ],
+    "requirement": "S02",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API194",
+    "method": "DELETE",
+    "path": "/api/v1/users/me/avatar",
+    "tags": [
+      "auth",
+      "tenancy"
+    ],
+    "requirement": "S02",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API195",
+    "method": "PUT",
+    "path": "/api/v1/users/me/avatar",
+    "tags": [
+      "auth",
+      "tenancy"
+    ],
+    "requirement": "S02",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API196",
+    "method": "POST",
+    "path": "/api/v1/users/me/disable",
+    "tags": [
+      "auth",
+      "tenancy"
+    ],
+    "requirement": "S02",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API197",
+    "method": "GET",
+    "path": "/api/v1/users/me/keys",
+    "tags": [
+      "auth",
+      "tenancy"
+    ],
+    "requirement": "S02",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API198",
+    "method": "POST",
+    "path": "/api/v1/users/me/keys",
+    "tags": [
+      "auth",
+      "tenancy"
+    ],
+    "requirement": "S02",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API199",
+    "method": "DELETE",
+    "path": "/api/v1/users/me/keys/{key_id}",
+    "tags": [
+      "auth",
+      "tenancy"
+    ],
+    "requirement": "S02",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API200",
+    "method": "GET",
+    "path": "/api/v1/users/me/login-sessions",
+    "tags": [
+      "auth",
+      "tenancy"
+    ],
+    "requirement": "S02",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API201",
+    "method": "DELETE",
+    "path": "/api/v1/users/me/login-sessions/{session_id}",
+    "tags": [
+      "auth",
+      "tenancy"
+    ],
+    "requirement": "S02",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API202",
+    "method": "POST",
+    "path": "/api/v1/users/me/password",
+    "tags": [
+      "auth",
+      "tenancy"
+    ],
+    "requirement": "S02",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API203",
+    "method": "GET",
+    "path": "/api/v1/users/{user_id}/avatar",
+    "tags": [
+      "auth",
+      "tenancy"
+    ],
+    "requirement": "S02",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API204",
+    "method": "GET",
+    "path": "/api/v1/web-providers",
+    "tags": [
+      "providers"
+    ],
+    "requirement": "S12",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API205",
+    "method": "POST",
+    "path": "/api/v1/web-providers",
+    "tags": [
+      "providers"
+    ],
+    "requirement": "S12",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API206",
+    "method": "GET",
+    "path": "/api/v1/web-providers/{provider_id}",
+    "tags": [
+      "providers"
+    ],
+    "requirement": "S12",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API207",
+    "method": "PATCH",
+    "path": "/api/v1/web-providers/{provider_id}",
+    "tags": [
+      "providers"
+    ],
+    "requirement": "S12",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API208",
+    "method": "POST",
+    "path": "/api/v1/web-providers/{provider_id}/test",
+    "tags": [
+      "providers"
+    ],
+    "requirement": "S12",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API209",
+    "method": "GET",
+    "path": "/api/v1/workspaces",
+    "tags": [
+      "tenancy"
+    ],
+    "requirement": "S01",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API210",
+    "method": "GET",
+    "path": "/api/v1/workspaces/{workspace_id}",
+    "tags": [
+      "tenancy"
+    ],
+    "requirement": "S01",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API211",
+    "method": "PATCH",
+    "path": "/api/v1/workspaces/{workspace_id}",
+    "tags": [
+      "tenancy"
+    ],
+    "requirement": "S01",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API212",
+    "method": "POST",
+    "path": "/api/v1/workspaces/{workspace_id}/archive",
+    "tags": [
+      "tenancy"
+    ],
+    "requirement": "S01",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API213",
+    "method": "GET",
+    "path": "/api/v1/workspaces/{workspace_id}/audit-events",
+    "tags": [
+      "tenancy"
+    ],
+    "requirement": "S01",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API214",
+    "method": "GET",
+    "path": "/api/v1/workspaces/{workspace_id}/grants",
+    "tags": [
+      "tenancy"
+    ],
+    "requirement": "S01",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API215",
+    "method": "POST",
+    "path": "/api/v1/workspaces/{workspace_id}/grants",
+    "tags": [
+      "tenancy"
+    ],
+    "requirement": "S01",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API216",
+    "method": "DELETE",
+    "path": "/api/v1/workspaces/{workspace_id}/grants/{grant_id}",
+    "tags": [
+      "tenancy"
+    ],
+    "requirement": "S01",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API217",
+    "method": "PATCH",
+    "path": "/api/v1/workspaces/{workspace_id}/grants/{grant_id}",
+    "tags": [
+      "tenancy"
+    ],
+    "requirement": "S01",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API218",
+    "method": "DELETE",
+    "path": "/api/v1/workspaces/{workspace_id}/icon",
+    "tags": [
+      "tenancy"
+    ],
+    "requirement": "S01",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API219",
+    "method": "GET",
+    "path": "/api/v1/workspaces/{workspace_id}/icon",
+    "tags": [
+      "tenancy"
+    ],
+    "requirement": "S01",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API220",
+    "method": "PUT",
+    "path": "/api/v1/workspaces/{workspace_id}/icon",
+    "tags": [
+      "tenancy"
+    ],
+    "requirement": "S01",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API221",
+    "method": "GET",
+    "path": "/api/v1/workspaces/{workspace_id}/invitations",
+    "tags": [
+      "tenancy"
+    ],
+    "requirement": "S01",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API222",
+    "method": "POST",
+    "path": "/api/v1/workspaces/{workspace_id}/invitations",
+    "tags": [
+      "tenancy"
+    ],
+    "requirement": "S01",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API223",
+    "method": "POST",
+    "path": "/api/v1/workspaces/{workspace_id}/invitations/{invitation_id}/resend",
+    "tags": [
+      "tenancy"
+    ],
+    "requirement": "S01",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API224",
+    "method": "POST",
+    "path": "/api/v1/workspaces/{workspace_id}/invitations/{invitation_id}/revoke",
+    "tags": [
+      "tenancy"
+    ],
+    "requirement": "S01",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API225",
+    "method": "GET",
+    "path": "/api/v1/workspaces/{workspace_id}/keys",
+    "tags": [
+      "tenancy"
+    ],
+    "requirement": "S01",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API226",
+    "method": "DELETE",
+    "path": "/api/v1/workspaces/{workspace_id}/keys/{key_id}",
+    "tags": [
+      "tenancy"
+    ],
+    "requirement": "S01",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API227",
+    "method": "GET",
+    "path": "/api/v1/workspaces/{workspace_id}/service-accounts",
+    "tags": [
+      "tenancy"
+    ],
+    "requirement": "S01",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API228",
+    "method": "POST",
+    "path": "/api/v1/workspaces/{workspace_id}/service-accounts",
+    "tags": [
+      "tenancy"
+    ],
+    "requirement": "S01",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API229",
+    "method": "DELETE",
+    "path": "/api/v1/workspaces/{workspace_id}/service-accounts/{account_id}",
+    "tags": [
+      "tenancy"
+    ],
+    "requirement": "S01",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API230",
+    "method": "GET",
+    "path": "/api/v1/workspaces/{workspace_id}/service-accounts/{account_id}",
+    "tags": [
+      "tenancy"
+    ],
+    "requirement": "S01",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API231",
+    "method": "PATCH",
+    "path": "/api/v1/workspaces/{workspace_id}/service-accounts/{account_id}",
+    "tags": [
+      "tenancy"
+    ],
+    "requirement": "S01",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API232",
+    "method": "GET",
+    "path": "/api/v1/workspaces/{workspace_id}/service-accounts/{account_id}/keys",
+    "tags": [
+      "tenancy"
+    ],
+    "requirement": "S01",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API233",
+    "method": "POST",
+    "path": "/api/v1/workspaces/{workspace_id}/service-accounts/{account_id}/keys",
+    "tags": [
+      "tenancy"
+    ],
+    "requirement": "S01",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API234",
+    "method": "GET",
+    "path": "/healthz",
+    "tags": [],
+    "requirement": "S14",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  },
+  {
+    "id": "API235",
+    "method": "GET",
+    "path": "/readyz",
+    "tags": [],
+    "requirement": "S14",
+    "required": true,
+    "status": "planned",
+    "implementation": [],
+    "evidence": []
+  }
+]

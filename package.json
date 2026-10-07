@@ -1,0 +1,14 @@
+{
+  "name": "asterweft",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Full-parity specification for an independently implemented Cloudflare agent platform",
+  "license": "Apache-2.0",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs && node scripts/parity.mjs check",
+    "parity:status": "node scripts/parity.mjs status",
+    "parity:release": "node scripts/parity.mjs release"
+  }
+}
